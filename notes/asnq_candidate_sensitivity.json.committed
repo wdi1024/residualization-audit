@@ -1,0 +1,98 @@
+{
+ "experiment": "ASNQ candidate-protocol sensitivity sweep",
+ "grid": {
+  "k5_s0": {
+   "n": 8000,
+   "pos_rate": 0.2875
+  },
+  "k5_s1": {
+   "n": 8000,
+   "pos_rate": 0.2875
+  },
+  "k5_s2": {
+   "n": 8000,
+   "pos_rate": 0.287375
+  },
+  "k10_s0": {
+   "n": 8000,
+   "pos_rate": 0.15225
+  },
+  "k10_s1": {
+   "n": 8000,
+   "pos_rate": 0.1515
+  },
+  "k10_s2": {
+   "n": 8000,
+   "pos_rate": 0.153125
+  },
+  "k20_s0": {
+   "n": 8000,
+   "pos_rate": 0.078875
+  },
+  "k20_s1": {
+   "n": 8000,
+   "pos_rate": 0.0765
+  },
+  "k20_s2": {
+   "n": 8000,
+   "pos_rate": 0.076375
+  },
+  "k50_s0": {
+   "n": 8000,
+   "pos_rate": 0.034
+  },
+  "k50_s1": {
+   "n": 8000,
+   "pos_rate": 0.031375
+  },
+  "k50_s2": {
+   "n": 8000,
+   "pos_rate": 0.033625
+  },
+  "all_s0": {
+   "n": 8000,
+   "pos_rate": 0.005125
+  },
+  "balanced_s0": {
+   "n": 8000,
+   "pos_rate": 0.5
+  },
+  "all_s1": {
+   "n": 8000,
+   "pos_rate": 0.00425
+  },
+  "balanced_s1": {
+   "n": 8000,
+   "pos_rate": 0.5
+  },
+  "all_s2": {
+   "n": 8000,
+   "pos_rate": 0.003375
+  },
+  "balanced_s2": {
+   "n": 8000,
+   "pos_rate": 0.500125
+  },
+  "natural": {
+   "n": 8000,
+   "pos_rate": 0.005125
+  },
+  "cached20": {
+   "n": 8000,
+   "pos_rate": 0.078625
+  }
+ },
+ "scorer": "cross-encoder/ms-marco-MiniLM-L-6-v2",
+ "gates": {
+  "C1": 0.65,
+  "C2_R2": 0.05,
+  "C2_Dadv": 0.03,
+  "cert": 0.05
+ },
+ "anchors": {
+  "natural_screen_C1": 0.643,
+  "resampled_screen_C1": 0.747
+ },
+ "recipe": "asnq_positive_run.py verbatim; C1 screen KFold(5,s,0) on dense; pipeline question-grouped GroupKFold(5); Ridge(1) residual; rate-calibrated slice; 1000 question-clustered bootstrap",
+ "committed_prediction": "C1 declines monotonically toward 0.643 as candidates/query grows; the sweep decides whether the k~20 gate pass is knife-edge or a plateau; seed variation expected small; C2 and repair sign expected stable wherever the slice is measurable"
+}

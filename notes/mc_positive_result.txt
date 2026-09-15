@@ -1,0 +1,28 @@
+hellaswag scored 0
+hellaswag scored 400
+hellaswag scored 800
+hellaswag scored 1200
+hellaswag scored 1600
+hellaswag scored 2000
+
+=== hellaswag (distilbert-mnli off-dist, 2400 pairs / 600 items) ===
+C1 artifact (ending-only AUC): 0.590  (gate ~0.65)
+C2 raw model AUC: 0.573
+            AUC full   AUC adv slice
+raw s          0.573           0.570   (n_adv=1092)
+repaired       0.521           0.554
+adv-slice gain: -0.016  [CI -0.066,+0.041]
+swag scored 0
+swag scored 400
+swag scored 800
+swag scored 1200
+swag scored 1600
+swag scored 2000
+
+=== swag (distilbert-mnli off-dist, 2400 pairs / 600 items) ===
+C1 artifact (ending-only AUC): 0.563  (gate ~0.65)
+C2 raw model AUC: 0.563
+            AUC full   AUC adv slice
+raw s          0.563           0.574   (n_adv=1116)
+repaired       0.507           0.561
+adv-slice gain: -0.013  [CI -0.066,+0.037]

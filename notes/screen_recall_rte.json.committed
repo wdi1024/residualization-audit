@@ -1,0 +1,20 @@
+{
+ "candidate": "rte",
+ "n": 2490,
+ "scorer": "cross-encoder/nli-deberta-v3-small",
+ "score_def": "softmax:entailment",
+ "phi": "full n=2490; phi = sentence2(hyp)-only TF-IDF (screen verbatim)",
+ "pairing_rationale": "SNLI+MNLI-trained nli-deberta-v3-small applied to RTE (off-distribution, substantial error rate).",
+ "slice_rule": "rate-calibrated: adv = (art_prob > quantile(art_prob, 1-mean(y))) != (y==1)",
+ "cv": "KFold(5, shuffle, seed 0)",
+ "gates": {
+  "C1": 0.65,
+  "C2_R2": 0.05,
+  "C2_Dadv": 0.03,
+  "cert": 0.05
+ },
+ "screen_C1": 0.524,
+ "remeasured_C1": 0.5241337308364016,
+ "remeasured_C1_at_screen_n": null,
+ "committed_prediction": "no validated positive expected (screen C1 0.524 < 0.65 -> refusal)"
+}

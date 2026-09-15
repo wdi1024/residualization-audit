@@ -1,0 +1,236 @@
+HUMANEVAL COMMITTED BEFORE SCORING: {"C1_screen": 0.3604, "committed_prediction": "C1 fails: screen refuses slice-level repair; paired-intervention analysis as in MBPP"}
+{
+ "mbpp_large_v2": {
+  "n": 1412,
+  "n_problems": 353,
+  "C2_R2_phi_to_s": 0.0234,
+  "effects_raw": {
+   "format_correct": {
+    "mean": -0.3351,
+    "CI": [
+     -0.4261,
+     -0.2483
+    ]
+   },
+   "format_buggy": {
+    "mean": -0.2445,
+    "CI": [
+     -0.327,
+     -0.1615
+    ]
+   },
+   "construct_terse": {
+    "mean": 0.2406,
+    "CI": [
+     0.1947,
+     0.2936
+    ]
+   },
+   "construct_verbose": {
+    "mean": 0.15,
+    "CI": [
+     0.1172,
+     0.1823
+    ]
+   }
+  },
+  "effects_residualized": {
+   "format_correct": {
+    "mean": -0.0545,
+    "CI": [
+     -0.142,
+     0.0331
+    ]
+   },
+   "format_buggy": {
+    "mean": 0.0411,
+    "CI": [
+     -0.0406,
+     0.1245
+    ]
+   },
+   "construct_terse": {
+    "mean": 0.2399,
+    "CI": [
+     0.1878,
+     0.2888
+    ]
+   },
+   "construct_verbose": {
+    "mean": 0.1443,
+    "CI": [
+     0.1129,
+     0.178
+    ]
+   }
+  },
+  "A_full": [
+   0.5387,
+   0.5377
+  ],
+  "cross_pref_ct_vs_bv": {
+   "raw": [
+    0.6827,
+    [
+     0.6346,
+     0.7309
+    ]
+   ],
+   "rep": [
+    0.5694,
+    [
+     0.5184,
+     0.6176
+    ]
+   ]
+  },
+  "cross_pref_cv_vs_bt": {
+   "raw": [
+    0.4618,
+    [
+     0.4079,
+     0.5127
+    ]
+   ],
+   "rep": [
+    0.6204,
+    [
+     0.5694,
+     0.6714
+    ]
+   ]
+  }
+ },
+ "humaneval_base": {
+  "n": 584,
+  "n_problems": 146,
+  "C2_R2_phi_to_s": 0.4177,
+  "effects_raw": {
+   "format_correct": {
+    "mean": 1.2406,
+    "CI": [
+     1.138,
+     1.3471
+    ]
+   },
+   "format_buggy": {
+    "mean": 1.238,
+    "CI": [
+     1.1299,
+     1.346
+    ]
+   },
+   "construct_terse": {
+    "mean": 0.0389,
+    "CI": [
+     0.0211,
+     0.0582
+    ]
+   },
+   "construct_verbose": {
+    "mean": 0.0414,
+    "CI": [
+     0.0244,
+     0.0605
+    ]
+   }
+  },
+  "effects_residualized": {
+   "format_correct": {
+    "mean": 0.0815,
+    "CI": [
+     -0.0173,
+     0.1815
+    ]
+   },
+   "format_buggy": {
+    "mean": 0.0807,
+    "CI": [
+     -0.0205,
+     0.1846
+    ]
+   },
+   "construct_terse": {
+    "mean": 0.0335,
+    "CI": [
+     0.0129,
+     0.0587
+    ]
+   },
+   "construct_verbose": {
+    "mean": 0.0343,
+    "CI": [
+     0.0141,
+     0.0562
+    ]
+   }
+  },
+  "A_full": [
+   0.5085,
+   0.5099
+  ],
+  "cross_pref_ct_vs_bv": {
+   "raw": [
+    0.0137,
+    [
+     0.0,
+     0.0342
+    ]
+   ],
+   "rep": [
+    0.4658,
+    [
+     0.3836,
+     0.5548
+    ]
+   ]
+  },
+  "cross_pref_cv_vs_bt": {
+   "raw": [
+    0.9795,
+    [
+     0.9521,
+     1.0
+    ]
+   ],
+   "rep": [
+    0.5274,
+    [
+     0.4452,
+     0.6096
+    ]
+   ]
+  },
+  "C1": 0.3604,
+  "committed": {
+   "C1_screen": 0.3604,
+   "committed_prediction": "C1 fails: screen refuses slice-level repair; paired-intervention analysis as in MBPP"
+  }
+ }
+}
+light problems kept: 353
+correct_light_raw {'mean': -0.2272, 'CI': [-0.2675, -0.1897]}
+correct_heavy_raw {'mean': 0.0832, 'CI': [0.0036, 0.159]}
+buggy_light_raw {'mean': -0.1991, 'CI': [-0.2386, -0.1628]}
+buggy_heavy_raw {'mean': 0.1537, 'CI': [0.0833, 0.2291]}
+margin_terse_raw {'mean': 0.1578, 'CI': [0.1281, 0.1862]}
+margin_verbose_raw {'mean': 0.0874, 'CI': [0.0687, 0.1075]}
+correct_light_resid_full_phi {'mean': -0.0176, 'CI': [-0.0551, 0.0175]}
+correct_heavy_resid_full_phi {'mean': -0.0353, 'CI': [-0.1038, 0.0419]}
+buggy_light_resid_full_phi {'mean': 0.0184, 'CI': [-0.0156, 0.0522]}
+buggy_heavy_resid_full_phi {'mean': 0.0348, 'CI': [-0.0342, 0.1086]}
+margin_terse_resid_full_phi {'mean': 0.16, 'CI': [0.1271, 0.1907]}
+margin_verbose_resid_full_phi {'mean': 0.0899, 'CI': [0.0702, 0.1094]}
+correct_light_resid_length_chars {'mean': -0.1696, 'CI': [-0.2076, -0.1315]}
+correct_heavy_resid_length_chars {'mean': 0.6199, 'CI': [0.5444, 0.6943]}
+buggy_light_resid_length_chars {'mean': -0.1408, 'CI': [-0.1793, -0.1039]}
+buggy_heavy_resid_length_chars {'mean': 0.6824, 'CI': [0.6071, 0.7509]}
+margin_terse_resid_length_chars {'mean': 0.1564, 'CI': [0.1259, 0.1868]}
+margin_verbose_resid_length_chars {'mean': 0.0939, 'CI': [0.0749, 0.1138]}
+correct_light_resid_length_tokens {'mean': -0.1557, 'CI': [-0.1949, -0.119]}
+correct_heavy_resid_length_tokens {'mean': 0.7299, 'CI': [0.657, 0.8097]}
+buggy_light_resid_length_tokens {'mean': -0.1264, 'CI': [-0.1648, -0.0905]}
+buggy_heavy_resid_length_tokens {'mean': 0.7945, 'CI': [0.7248, 0.867]}
+margin_terse_resid_length_tokens {'mean': 0.1574, 'CI': [0.1285, 0.187]}
+margin_verbose_resid_length_tokens {'mean': 0.0928, 'CI': [0.0747, 0.1119]}
+wrote /Users/wondaein/ai-vault/experiments/proxy_repair/grouped_rerun/length_only_baseline.json

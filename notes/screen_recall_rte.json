@@ -1,0 +1,71 @@
+{
+ "candidate": "rte",
+ "n": 2490,
+ "pos_rate": 0.5016064257028112,
+ "grouped_cv": false,
+ "n_groups": 2379,
+ "screen_C1": 0.524,
+ "C1_remeasured_screen_cv": 0.5241337308364016,
+ "C1_remeasured_at_screen_n": null,
+ "C1_pipeline_cv": 0.5241337308364016,
+ "C1_gate_pass": false,
+ "s_raw_AUC_full": 0.855646644632386,
+ "C2_R2_phi_to_s": -0.02855858331065453,
+ "C2_Delta_adv": -0.005472635612470245,
+ "C2_pass": false,
+ "A_full": [
+  0.855646644632386,
+  0.8093617520930523
+ ],
+ "A_adv": [
+  0.8611192802448563,
+  0.8865089479244954
+ ],
+ "n_adv": 1212,
+ "slice_gain": 0.025389667679639127,
+ "slice_gain_CI": [
+  0.012657371869815396,
+  0.03678790311546497
+ ],
+ "full_gain": -0.046284892539333766,
+ "full_gain_CI": [
+  -0.05642000136802448,
+  -0.035480381535762294
+ ],
+ "decorrelation_before_after": [
+  0.026955488945704095,
+  0.15354245935896546
+ ],
+ "cert_after_CI": [
+  0.11711766455485932,
+  0.19028858449365094
+ ],
+ "cert_pass": false,
+ "pipeline_ran_to_completion": true,
+ "verdict": "true negative: C2 fails (R2=-0.029, Dadv=-0.005); decorrelation fails (0.154>0.05)",
+ "screen_FN": false,
+ "committed": {
+  "candidate": "rte",
+  "n": 2490,
+  "scorer": "cross-encoder/nli-deberta-v3-small",
+  "score_def": "softmax:entailment",
+  "phi": "full n=2490; phi = sentence2(hyp)-only TF-IDF (screen verbatim)",
+  "pairing_rationale": "SNLI+MNLI-trained nli-deberta-v3-small applied to RTE (off-distribution, substantial error rate).",
+  "slice_rule": "rate-calibrated: adv = (art_prob > quantile(art_prob, 1-mean(y))) != (y==1)",
+  "cv": "KFold(5, shuffle, seed 0)",
+  "gates": {
+   "C1": 0.65,
+   "C2_R2": 0.05,
+   "C2_Dadv": 0.03,
+   "cert": 0.05
+  },
+  "screen_C1": 0.524,
+  "remeasured_C1": 0.5241337308364016,
+  "remeasured_C1_at_screen_n": null,
+  "committed_prediction": "no validated positive expected (screen C1 0.524 < 0.65 -> refusal)"
+ },
+ "spot_check_n": 32,
+ "spot_check_max_absdiff": 0.0,
+ "determinism_check": "PASS: all statistics identical across two processes; scorer spot-check max|diff|=0.0",
+ "runtime_s": 38.2
+}

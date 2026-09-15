@@ -1,0 +1,9 @@
+
+=== STRONG-POSITIVE probe: RewardBench(400) x deberta, rich artifacts ===
+overall RM acc: 0.632
+acc | length AGREES with correct (chosen longer, n=146): 0.678
+acc | length DISAGREES (rejected longer, n=254):      0.606
+  -> gap = length-bias effect (AGREES higher = RM leans on length)
+
+repair on DISAGREE slice (length misleads): raw acc 0.606 -> repaired 0.343
+corr(margin, length): 0.203  corr(margin, phi[:,4]=headers): 0.111

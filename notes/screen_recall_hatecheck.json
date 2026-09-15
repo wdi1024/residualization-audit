@@ -1,0 +1,71 @@
+{
+ "candidate": "hatecheck",
+ "n": 3728,
+ "pos_rate": 0.6875,
+ "grouped_cv": false,
+ "n_groups": null,
+ "screen_C1": 0.637,
+ "C1_remeasured_screen_cv": 0.6371617220297432,
+ "C1_remeasured_at_screen_n": null,
+ "C1_pipeline_cv": 0.6371617220297432,
+ "C1_gate_pass": false,
+ "s_raw_AUC_full": 0.6373095838936065,
+ "C2_R2_phi_to_s": 0.10373007581544136,
+ "C2_Delta_adv": 0.09754143335158916,
+ "C2_pass": true,
+ "A_full": [
+  0.6373095838936065,
+  0.5835851562094447
+ ],
+ "A_adv": [
+  0.5397681505420173,
+  0.6481085199095507
+ ],
+ "n_adv": 1284,
+ "slice_gain": 0.10834036936753333,
+ "slice_gain_CI": [
+  0.0988597351048008,
+  0.11814563034867795
+ ],
+ "full_gain": -0.053724427684161746,
+ "full_gain_CI": [
+  -0.06324527073617695,
+  -0.044255338268742526
+ ],
+ "decorrelation_before_after": [
+  0.2082863927698079,
+  0.0006056313478819686
+ ],
+ "cert_after_CI": [
+  0.0006439508631959263,
+  0.035364317966293704
+ ],
+ "cert_pass": true,
+ "pipeline_ran_to_completion": true,
+ "verdict": "VALIDATED POSITIVE (screen FN)",
+ "screen_FN": true,
+ "committed": {
+  "candidate": "hatecheck",
+  "n": 3728,
+  "scorer": "unitary/toxic-bert",
+  "score_def": "sigmoid:toxic",
+  "phi": "full n=3728; phi = identity-term counts (30) + length (screen verbatim); no query grouping (templated cases)",
+  "pairing_rationale": "toxic-bert (Jigsaw-trained) on HateCheck functional tests that are DESIGNED to trip identity-term-reliant classifiers -> off-distribution, artifact-driven error possible.",
+  "slice_rule": "rate-calibrated: adv = (art_prob > quantile(art_prob, 1-mean(y))) != (y==1)",
+  "cv": "KFold(5, shuffle, seed 0)",
+  "gates": {
+   "C1": 0.65,
+   "C2_R2": 0.05,
+   "C2_Dadv": 0.03,
+   "cert": 0.05
+  },
+  "screen_C1": 0.637,
+  "remeasured_C1": 0.6371617220297432,
+  "remeasured_C1_at_screen_n": null,
+  "committed_prediction": "no validated positive expected (screen C1 0.637 < 0.65 -> refusal)"
+ },
+ "spot_check_n": 32,
+ "spot_check_max_absdiff": 0.0,
+ "determinism_check": "PASS: all statistics identical across two processes; scorer spot-check max|diff|=0.0",
+ "runtime_s": 25.7
+}

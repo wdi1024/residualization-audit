@@ -1,0 +1,38 @@
+{
+ "linear": {
+  "C1_linear": 0.999968,
+  "A_adv_raw": 0.3908594118718204,
+  "A_adv_linear_repair": 0.9407737531169753,
+  "A_adv_rf_repair": 0.8796485203890134,
+  "floor_raw_rf_probe": 0.7868756250000001,
+  "floor_linrep_rf_probe": 0.50853375,
+  "floor_rfrep_rf_probe": 0.501617875
+ },
+ "quadratic": {
+  "C1_linear": 0.4919765,
+  "A_adv_raw": 0.43172360102431545,
+  "A_adv_linear_repair": 0.43291980204731884,
+  "A_adv_rf_repair": 0.7609456767283136,
+  "floor_raw_rf_probe": 0.7003275,
+  "floor_linrep_rf_probe": 0.7213595,
+  "floor_rfrep_rf_probe": 0.5287385
+ },
+ "xor": {
+  "C1_linear": 0.47371975320772697,
+  "A_adv_raw": 0.18803753717546823,
+  "A_adv_linear_repair": 0.18757234145165178,
+  "A_adv_rf_repair": 0.8337724057551643,
+  "floor_raw_rf_probe": 0.9043032383672627,
+  "floor_linrep_rf_probe": 0.9154418686286436,
+  "floor_rfrep_rf_probe": 0.5573470505713141
+ },
+ "piecewise": {
+  "C1_linear": 0.9540779959039295,
+  "A_adv_raw": 0.446891931329383,
+  "A_adv_linear_repair": 0.6757064369187042,
+  "A_adv_rf_repair": 0.9122685919478245,
+  "floor_raw_rf_probe": 0.751976914098349,
+  "floor_linrep_rf_probe": 0.5666702943239256,
+  "floor_rfrep_rf_probe": 0.4959433881809654
+ }
+}

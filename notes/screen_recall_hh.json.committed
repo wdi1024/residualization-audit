@@ -1,0 +1,20 @@
+{
+ "candidate": "hh",
+ "n": 2000,
+ "scorer": "OpenAssistant/reward-model-deberta-v3-base",
+ "score_def": "rm_margin",
+ "phi": "n=2000 subsample (seed-0 choice) of screen's flip-constructed 4000; phi = length-only on FULL dialogue strings (screen verbatim); s = RM margin on last-assistant-turn split",
+ "pairing_rationale": "base RM (NOT large-v2, whose training mix includes hh-rlhf -> in-distribution trap); hh-rlhf off-distribution for base; screen's deterministic flip keeps y non-degenerate (RewardBench trap avoided).",
+ "slice_rule": "rate-calibrated: adv = (art_prob > quantile(art_prob, 1-mean(y))) != (y==1)",
+ "cv": "KFold(5, shuffle, seed 0)",
+ "gates": {
+  "C1": 0.65,
+  "C2_R2": 0.05,
+  "C2_Dadv": 0.03,
+  "cert": 0.05
+ },
+ "screen_C1": 0.513,
+ "remeasured_C1": 0.5114295600484423,
+ "remeasured_C1_at_screen_n": 0.513285375,
+ "committed_prediction": "no validated positive expected (screen C1 0.513 < 0.65 -> refusal)"
+}

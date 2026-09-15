@@ -1,0 +1,4 @@
+ASNQ n=8000 n_adv=981 (same slice as primary run)
+[qnli] R2=0.203  A_adv 0.714->0.726 (gain +0.012 CI [-0.007, 0.032])  A_full 0.794->0.733  R_lin 0.089->0.011
+[stsb] R2=0.536  A_adv 0.399->0.665 (gain +0.265 CI [0.241, 0.288])  A_full 0.807->0.697  R_lin 0.512->0.006
+saved notes/asnq_second_scorer_2026-07-11.json

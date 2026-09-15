@@ -1,0 +1,71 @@
+{
+ "candidate": "boolq",
+ "n": 6000,
+ "pos_rate": 0.624,
+ "grouped_cv": false,
+ "n_groups": null,
+ "screen_C1": 0.64,
+ "C1_remeasured_screen_cv": 0.6397957772625326,
+ "C1_remeasured_at_screen_n": null,
+ "C1_pipeline_cv": 0.6397957772625326,
+ "C1_gate_pass": false,
+ "s_raw_AUC_full": 0.59332532524853,
+ "C2_R2_phi_to_s": 0.06794213161277951,
+ "C2_Delta_adv": -0.005020550928884537,
+ "C2_pass": false,
+ "A_full": [
+  0.59332532524853,
+  0.5879789459826028
+ ],
+ "A_adv": [
+  0.5983458761774145,
+  0.6226479750055888
+ ],
+ "n_adv": 2274,
+ "slice_gain": 0.024302098828174246,
+ "slice_gain_CI": [
+  0.01397594826459227,
+  0.03361801883670385
+ ],
+ "full_gain": -0.005346379265927181,
+ "full_gain_CI": [
+  -0.011615017283393961,
+  0.0009498937750003607
+ ],
+ "decorrelation_before_after": [
+  0.015562163477988698,
+  0.022014456129063588
+ ],
+ "cert_after_CI": [
+  0.002351423220686765,
+  0.04754518449427476
+ ],
+ "cert_pass": true,
+ "pipeline_ran_to_completion": true,
+ "verdict": "true negative: C2 fails (R2=0.068, Dadv=-0.005)",
+ "screen_FN": false,
+ "committed": {
+  "candidate": "boolq",
+  "n": 6000,
+  "scorer": "cross-encoder/qnli-distilroberta-base",
+  "score_def": "logit",
+  "phi": "full n=6000; phi = question-only TF-IDF 8000 1-2gram (screen verbatim); questions unique -> no grouping",
+  "pairing_rationale": "qnli-distilroberta cross-encoder (QNLI answerability) applied to BoolQ yes/no -> off-distribution scorer whose score can lean on surface question cues; y = BoolQ gold answer (independent).",
+  "slice_rule": "rate-calibrated: adv = (art_prob > quantile(art_prob, 1-mean(y))) != (y==1)",
+  "cv": "KFold(5, shuffle, seed 0)",
+  "gates": {
+   "C1": 0.65,
+   "C2_R2": 0.05,
+   "C2_Dadv": 0.03,
+   "cert": 0.05
+  },
+  "screen_C1": 0.64,
+  "remeasured_C1": 0.6397957772625326,
+  "remeasured_C1_at_screen_n": null,
+  "committed_prediction": "no validated positive expected (screen C1 0.640 < 0.65 -> refusal)"
+ },
+ "spot_check_n": 32,
+ "spot_check_max_absdiff": 0.0,
+ "determinism_check": "PASS: all statistics identical across two processes; scorer spot-check max|diff|=0.0",
+ "runtime_s": 83.6
+}

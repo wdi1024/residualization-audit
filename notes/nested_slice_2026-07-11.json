@@ -1,0 +1,18 @@
+{
+ "SNLI": {
+  "standard_crossfit_gain": 0.04360599387722208,
+  "nested_slice_gain_mean": 0.031197444907835492,
+  "nested_slice_gain_std": 0.002662960876730619,
+  "nested_full_gain_mean": -0.078081461087759,
+  "worstgroup_raw": 0.9281537575813619,
+  "worstgroup_rep": 0.844434047716262
+ },
+ "SICK": {
+  "standard_crossfit_gain": 0.19887640449438204,
+  "nested_slice_gain_mean": 0.20834593274450608,
+  "nested_slice_gain_std": 0.014888321218309523,
+  "nested_full_gain_mean": -0.05951664986075109,
+  "worstgroup_raw": 0.7526973215106653,
+  "worstgroup_rep": 0.8677354326876694
+ }
+}

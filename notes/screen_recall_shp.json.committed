@@ -1,0 +1,20 @@
+{
+ "candidate": "shp",
+ "n": 2000,
+ "scorer": "OpenAssistant/reward-model-deberta-v3-base",
+ "score_def": "rm_margin",
+ "phi": "n=2000 subsample of the screen's first-4000 (seed-0 choice); phi = length-only [la,lb,la-lb,dlog1p]; post_id-grouped",
+ "pairing_rationale": "OA deberta-v3-base RM trained on webgpt/summarize/synthetic-instruct -> SHP (Reddit) is off-distribution; RM length bias is the documented artifact; y = SHP human preference (independent).",
+ "slice_rule": "rate-calibrated: adv = (art_prob > quantile(art_prob, 1-mean(y))) != (y==1)",
+ "cv": "GroupKFold(5), deterministic first-occurrence group ids",
+ "gates": {
+  "C1": 0.65,
+  "C2_R2": 0.05,
+  "C2_Dadv": 0.03,
+  "cert": 0.05
+ },
+ "screen_C1": 0.647,
+ "remeasured_C1": 0.6505295809881175,
+ "remeasured_C1_at_screen_n": 0.6467711010555655,
+ "committed_prediction": "no validated positive expected (screen C1 0.647 < 0.65 -> refusal)"
+}

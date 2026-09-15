@@ -1,0 +1,71 @@
+{
+ "candidate": "mnli",
+ "n": 4000,
+ "pos_rate": 0.51675,
+ "grouped_cv": true,
+ "n_groups": 2749,
+ "screen_C1": 0.616,
+ "C1_remeasured_screen_cv": 0.6163383106691485,
+ "C1_remeasured_at_screen_n": null,
+ "C1_pipeline_cv": 0.6967324079448162,
+ "C1_gate_pass": false,
+ "s_raw_AUC_full": 0.9218538004275296,
+ "C2_R2_phi_to_s": 0.10398786198675025,
+ "C2_Delta_adv": 0.04107169113882114,
+ "C2_pass": true,
+ "A_full": [
+  0.9218538004275296,
+  0.8544023530406999
+ ],
+ "A_adv": [
+  0.8807821092887085,
+  0.916769350105714
+ ],
+ "n_adv": 1438,
+ "slice_gain": 0.03598724081700555,
+ "slice_gain_CI": [
+  0.027671818070549824,
+  0.044578622597669405
+ ],
+ "full_gain": -0.06745144738682973,
+ "full_gain_CI": [
+  -0.07465385315446148,
+  -0.0602596833573139
+ ],
+ "decorrelation_before_after": [
+  0.33251996607355333,
+  0.009153094555031977
+ ],
+ "cert_after_CI": [
+  0.0007701932444791879,
+  0.037093160984829704
+ ],
+ "cert_pass": true,
+ "pipeline_ran_to_completion": true,
+ "verdict": "VALIDATED POSITIVE (screen FN)",
+ "screen_FN": true,
+ "committed": {
+  "candidate": "mnli",
+  "n": 4000,
+  "scorer": "textattack/bert-base-uncased-snli",
+  "score_def": "softmax:1",
+  "phi": "full n=4000 entail-vs-contra; phi = hyp-only TF-IDF (screen verbatim); premise-grouped; entail = class idx 1 (second_positive_hunt sec.4)",
+  "pairing_rationale": "SNLI-trained bert applied to MNLI (off-distribution, mirrors the SNLI positive's model-perpendicular-data recipe).",
+  "slice_rule": "rate-calibrated: adv = (art_prob > quantile(art_prob, 1-mean(y))) != (y==1)",
+  "cv": "GroupKFold(5), deterministic first-occurrence group ids",
+  "gates": {
+   "C1": 0.65,
+   "C2_R2": 0.05,
+   "C2_Dadv": 0.03,
+   "cert": 0.05
+  },
+  "screen_C1": 0.616,
+  "remeasured_C1": 0.6163383106691485,
+  "remeasured_C1_at_screen_n": null,
+  "committed_prediction": "no validated positive expected (screen C1 0.616 < 0.65 -> refusal)"
+ },
+ "spot_check_n": 32,
+ "spot_check_max_absdiff": 0.0,
+ "determinism_check": "PASS: all statistics identical across two processes; scorer spot-check max|diff|=0.0",
+ "runtime_s": 36.4
+}

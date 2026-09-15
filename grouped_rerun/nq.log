@@ -1,0 +1,119 @@
+scanned 500, kept 57 questions, 298 rows
+scanned 1000, kept 102 questions, 547 rows
+scanned 1500, kept 156 questions, 803 rows
+scanned 2000, kept 214 questions, 1122 rows
+scanned 2500, kept 279 questions, 1486 rows
+scanned 3000, kept 334 questions, 1763 rows
+scanned 3500, kept 393 questions, 2071 rows
+scanned 4000, kept 452 questions, 2362 rows
+scanned 4500, kept 520 questions, 2698 rows
+scanned 5000, kept 577 questions, 3023 rows
+scanned 5500, kept 643 questions, 3353 rows
+scanned 6000, kept 714 questions, 3703 rows
+scanned 6500, kept 777 questions, 4022 rows
+scanned 7000, kept 839 questions, 4357 rows
+scanned 7500, kept 904 questions, 4710 rows
+built 4929 rows from 946 questions (7830 scanned)
+n=4929 questions=946 pos_rate=0.192 y1/y2 agreement=0.9519
+scored 0/4929
+scored 1280/4929
+scored 2560/4929
+scored 3840/4929
+scores ready
+nq_dual {
+ "n": 4929,
+ "n_adv": 1214,
+ "C1": 0.6769,
+ "R2": 0.4422,
+ "delta_adv": 0.381,
+ "C1_CI": [
+  0.6582,
+  0.695
+ ],
+ "R2_CI": [
+  0.4175,
+  0.4648
+ ],
+ "delta_adv_CI": [
+  0.349,
+  0.4126
+ ],
+ "alpha_sweep": {
+  "0.1": {
+   "gain_adv": 0.2345,
+   "A_adv": [
+    0.402,
+    0.6365
+   ],
+   "Rlin_rep": 0.0331,
+   "R2": 0.2581
+  },
+  "1.0": {
+   "gain_adv": 0.2561,
+   "A_adv": [
+    0.402,
+    0.6581
+   ],
+   "Rlin_rep": 0.0449,
+   "R2": 0.4422
+  },
+  "10.0": {
+   "gain_adv": 0.1948,
+   "A_adv": [
+    0.402,
+    0.5968
+   ],
+   "Rlin_rep": 0.184,
+   "R2": 0.3987
+  },
+  "100.0": {
+   "gain_adv": 0.0536,
+   "A_adv": [
+    0.402,
+    0.4556
+   ],
+   "Rlin_rep": 0.3876,
+   "R2": 0.1424
+  }
+ },
+ "rank_gauss": {
+  "Rlin_raw": 0.4363,
+  "Rlin_rep": 0.0452,
+  "gain_adv": 0.2972
+ }
+}
+{
+ "n": 4929,
+ "n_adv": 1214,
+ "C1": 0.6769,
+ "R2": 0.4422,
+ "delta_adv": 0.381,
+ "C1_CI": [
+  0.6582,
+  0.695
+ ],
+ "R2_CI": [
+  0.4175,
+  0.4648
+ ],
+ "delta_adv_CI": [
+  0.349,
+  0.4126
+ ],
+ "agreement_y1_y2": 0.9519,
+ "gain_same_label": 0.2561,
+ "gain_same_label_ci": [
+  0.2334,
+  0.2786
+ ],
+ "adv_y2": [
+  0.4393,
+  0.6597
+ ],
+ "gain_disjoint": 0.2204,
+ "gain_disjoint_ci": [
+  0.1959,
+  0.2435
+ ]
+}
+wrote /Users/wondaein/ai-vault/experiments/proxy_repair/grouped_rerun/nq_dual_reading.json

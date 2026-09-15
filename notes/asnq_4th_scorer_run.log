@@ -1,0 +1,1 @@
+{'scorer': 'cross-encoder/ms-marco-electra-base', 'R2_phi_to_s': 0.197, 'Delta_adv': np.float64(0.283), 'A_full': [np.float64(0.839), np.float64(0.589)], 'A_adv': [np.float64(0.556), np.float64(0.714)], 'adv_gain': np.float64(0.158), 'adv_gain_ci': [0.125, 0.189], 'R_lin': [0.347, 0.023]}

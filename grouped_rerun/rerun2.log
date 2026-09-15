@@ -1,0 +1,347 @@
+
+=== wikiqa: n=8000 pos=0.049 queries=792
+{
+ "C1": 0.7481,
+ "R2": 0.314,
+ "delta_adv": 0.2424,
+ "n_adv": 626,
+ "adv": [
+  0.6218,
+  0.8024
+ ],
+ "adv_gain_ci": [
+  0.1534,
+  0.2112
+ ],
+ "full": [
+  0.8642,
+  0.8107
+ ],
+ "flag": [
+  0.9416,
+  0.8354
+ ],
+ "cert": {
+  "raw": 0.4992,
+  "rep": 0.0417,
+  "rep_ci": [
+   0.008,
+   0.0773
+  ]
+ },
+ "floor": [
+  0.8491,
+  0.5763
+ ],
+ "rankings": {
+  "all": {
+   "n_queries": 317,
+   "MRR": [
+    0.8099,
+    0.6888
+   ],
+   "perq_AUC": [
+    0.8771,
+    0.8035
+   ]
+  },
+  "slice": {
+   "n_queries": 286,
+   "MRR": [
+    0.7893,
+    0.6875
+   ],
+   "perq_AUC": [
+    0.8637,
+    0.802
+   ]
+  }
+ },
+ "scorers": {
+  "qnli": {
+   "R2": 0.0159,
+   "adv": [
+    0.7359,
+    0.7807
+   ],
+   "gain_ci": [
+    0.0267,
+    0.0623
+   ]
+  },
+  "stsb": {
+   "R2": 0.3602,
+   "adv": [
+    0.4396,
+    0.679
+   ],
+   "gain_ci": [
+    0.2081,
+    0.2724
+   ]
+  }
+ }
+}
+
+=== asnq: n=8000 pos=0.079 queries=390
+{
+ "C1": 0.7506,
+ "R2": 0.377,
+ "delta_adv": 0.3556,
+ "n_adv": 974,
+ "adv": [
+  0.4952,
+  0.6947
+ ],
+ "adv_gain_ci": [
+  0.18,
+  0.2185
+ ],
+ "full": [
+  0.8508,
+  0.7688
+ ],
+ "flag": [
+  0.733,
+  0.6946
+ ],
+ "cert": {
+  "raw": 0.6057,
+  "rep": 0.1389,
+  "rep_ci": [
+   0.102,
+   0.177
+  ]
+ },
+ "floor": [
+  0.8541,
+  0.605
+ ],
+ "rankings": {
+  "all": {
+   "n_queries": 390,
+   "MRR": [
+    0.7056,
+    0.6174
+   ],
+   "perq_AUC": [
+    0.8773,
+    0.7837
+   ]
+  },
+  "slice": {
+   "n_queries": 375,
+   "MRR": [
+    0.6992,
+    0.6194
+   ],
+   "perq_AUC": [
+    0.8735,
+    0.7817
+   ]
+  }
+ }
+}
+
+=== triviaqa: n=11264 pos=0.250 queries=2816
+{
+ "C1": 0.6758,
+ "R2": 0.3846,
+ "delta_adv": 0.2328,
+ "n_adv": 3324,
+ "adv": [
+  0.4728,
+  0.621
+ ],
+ "adv_gain_ci": [
+  0.1326,
+  0.1647
+ ],
+ "full": [
+  0.7056,
+  0.6355
+ ],
+ "flag": [
+  0.6845,
+  0.65
+ ],
+ "cert": {
+  "raw": 0.456,
+  "rep": 0.008,
+  "rep_ci": [
+   0.0005,
+   0.0321
+  ]
+ },
+ "floor": [
+  0.7278,
+  0.5365
+ ],
+ "rankings": {
+  "all": {
+   "n_queries": 2816,
+   "MRR": [
+    0.7297,
+    0.6503
+   ],
+   "perq_AUC": [
+    0.7304,
+    0.6425
+   ]
+  },
+  "slice": {
+   "n_queries": 2202,
+   "MRR": [
+    0.6963,
+    0.6463
+   ],
+   "perq_AUC": [
+    0.6959,
+    0.6379
+   ]
+  }
+ }
+}
+Using the latest cached version of the dataset since squad couldn't be found on the Hugging Face Hub
+Found the latest cached dataset configuration 'plain_text' at /Users/wondaein/.cache/huggingface/datasets/squad/plain_text/0.0.0/7b6d24c440a36b6815f21b70d25016731768db1f (last modified on Tue Jul 28 01:35:59 2026).
+
+=== squad: n=8000 pos=0.200 queries=1604
+{
+ "C1": 0.8128,
+ "R2": 0.491,
+ "delta_adv": 0.2258,
+ "n_adv": 1478,
+ "adv": [
+  0.7058,
+  0.8817
+ ],
+ "adv_gain_ci": [
+  0.1549,
+  0.1968
+ ],
+ "full": [
+  0.9316,
+  0.8359
+ ],
+ "flag": [
+  0.9115,
+  0.8122
+ ],
+ "cert": {
+  "raw": 0.6266,
+  "rep": 0.0274,
+  "rep_ci": [
+   0.0039,
+   0.0503
+  ]
+ },
+ "floor": [
+  0.8564,
+  0.5956
+ ],
+ "rankings": {
+  "all": {
+   "n_queries": 1603,
+   "MRR": [
+    0.911,
+    0.8176
+   ],
+   "perq_AUC": [
+    0.9296,
+    0.848
+   ]
+  },
+  "slice": {
+   "n_queries": 1067,
+   "MRR": [
+    0.8757,
+    0.8242
+   ],
+   "perq_AUC": [
+    0.9013,
+    0.8573
+   ]
+  }
+ },
+ "dual_reading": {
+  "agreement": 0.9726,
+  "adv_y2": [
+   0.7206,
+   0.8751
+  ],
+  "gain_ci": [
+   0.1349,
+   0.1761
+  ]
+ },
+ "hi_overlap_quartile": [
+  0.9129,
+  0.8124
+ ],
+ "feature_split_adv_gain": {
+  "overlap_only": 0.14,
+  "answer_only": 0.0631
+ }
+}
+
+=== duorc: n=8000 pos=0.074 queries=594
+{
+ "C1": 0.835,
+ "R2": 0.2827,
+ "delta_adv": 0.144,
+ "n_adv": 674,
+ "adv": [
+  0.8068,
+  0.8626
+ ],
+ "adv_gain_ci": [
+  0.0376,
+  0.0758
+ ],
+ "full": [
+  0.9508,
+  0.8674
+ ],
+ "flag": [
+  0.9517,
+  0.8352
+ ],
+ "cert": {
+  "raw": 0.4816,
+  "rep": 0.0352,
+  "rep_ci": [
+   0.0029,
+   0.0761
+  ]
+ },
+ "floor": [
+  0.8138,
+  0.6055
+ ],
+ "rankings": {
+  "all": {
+   "n_queries": 594,
+   "MRR": [
+    0.8935,
+    0.8065
+   ],
+   "perq_AUC": [
+    0.9531,
+    0.8864
+   ]
+  },
+  "slice": {
+   "n_queries": 424,
+   "MRR": [
+    0.8574,
+    0.8098
+   ],
+   "perq_AUC": [
+    0.9369,
+    0.8978
+   ]
+  }
+ }
+}
+
+wrote grouped_full_results.json

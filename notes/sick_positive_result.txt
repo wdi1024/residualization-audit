@@ -1,0 +1,20 @@
+fetched 4906
+label 0: n_probe=40 mean_p_ent=0.899
+label 1: n_probe=40 mean_p_ent=0.125
+label 2: n_probe=40 mean_p_ent=0.003
+recovered: entailment=0, contradiction=2
+binary subset n=2116 (pos rate 0.664)
+scored 0
+scored 400
+scored 800
+scored 1200
+scored 1600
+scored 2000
+
+=== SICK (distilbert-mnli off-dist, n=2116) — repair ===
+C1 artifact strength (hyp-only AUC): 0.727  (gate ~0.65)
+C2 raw model AUC (corrupted if visibly imperfect): 0.967
+            AUC full   AUC adv slice
+raw s          0.967           0.765   (n_adv=455)
+repaired       0.906           0.964
+adv-slice gain: +0.199  [CI +0.018,+0.450]

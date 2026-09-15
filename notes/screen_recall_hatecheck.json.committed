@@ -1,0 +1,20 @@
+{
+ "candidate": "hatecheck",
+ "n": 3728,
+ "scorer": "unitary/toxic-bert",
+ "score_def": "sigmoid:toxic",
+ "phi": "full n=3728; phi = identity-term counts (30) + length (screen verbatim); no query grouping (templated cases)",
+ "pairing_rationale": "toxic-bert (Jigsaw-trained) on HateCheck functional tests that are DESIGNED to trip identity-term-reliant classifiers -> off-distribution, artifact-driven error possible.",
+ "slice_rule": "rate-calibrated: adv = (art_prob > quantile(art_prob, 1-mean(y))) != (y==1)",
+ "cv": "KFold(5, shuffle, seed 0)",
+ "gates": {
+  "C1": 0.65,
+  "C2_R2": 0.05,
+  "C2_Dadv": 0.03,
+  "cert": 0.05
+ },
+ "screen_C1": 0.637,
+ "remeasured_C1": 0.6371617220297432,
+ "remeasured_C1_at_screen_n": null,
+ "committed_prediction": "no validated positive expected (screen C1 0.637 < 0.65 -> refusal)"
+}

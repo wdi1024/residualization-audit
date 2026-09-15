@@ -1,0 +1,21 @@
+{
+ "down": {
+  "n": 503,
+  "delta_overlap": -0.07456833101299701,
+  "delta_raw_score": -5.018760248966826,
+  "se_raw": 0.16136469650470892,
+  "delta_residualized": -0.6594917813359064,
+  "se_rep": 0.1424722885403067,
+  "attenuation": 0.868594683025221
+ },
+ "up": {
+  "n": 599,
+  "delta_overlap": 0.062073895594143697,
+  "delta_raw_score": 8.568648265460148,
+  "se_raw": 0.16992574964306295,
+  "delta_residualized": 4.237592493626657,
+  "se_rep": 0.1566789112107956,
+  "attenuation": 0.5054537936038044
+ },
+ "note": "relevance fixed by construction: down-edits keep the answer span verbatim (y=1), up-edits never introduce it (y=0)"
+}

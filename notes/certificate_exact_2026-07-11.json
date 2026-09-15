@@ -1,0 +1,83 @@
+{
+ "SNLI": {
+  "ridge_cv(paper)": {
+   "R2_phi_to_srep": null,
+   "decision_probe_auc": null,
+   "note": "see certificate_exact_run.log head"
+  }
+ },
+ "SICK": {
+  "ridge_cv(paper)": {
+   "R2_phi_to_srep": -0.5013,
+   "corr_srep_ahat": -0.0145,
+   "decision_probe_auc": 0.648,
+   "decision_ci": [
+    0.624,
+    0.672
+   ]
+  },
+  "ols_cv": {
+   "R2_phi_to_srep": -0.4697,
+   "corr_srep_ahat": -0.055,
+   "decision_probe_auc": 0.54,
+   "decision_ci": [
+    0.509,
+    0.571
+   ]
+  },
+  "ols_full(in-sample)": {
+   "R2_phi_to_srep": -0.6267,
+   "corr_srep_ahat": -0.0949,
+   "decision_probe_auc": 0.481,
+   "decision_ci": [
+    0.449,
+    0.514
+   ]
+  },
+  "raw": {
+   "R2_phi_to_s": 0.14,
+   "decision_probe_auc": 0.878,
+   "decision_ci": [
+    0.86,
+    0.896
+   ]
+  }
+ },
+ "WikiQA": {
+  "ridge_cv(paper)": {
+   "R2_phi_to_srep": -0.4729,
+   "corr_srep_ahat": 0.0311,
+   "decision_probe_auc": 0.559,
+   "decision_ci": [
+    0.528,
+    0.589
+   ]
+  },
+  "ols_cv": {
+   "R2_phi_to_srep": -0.635,
+   "corr_srep_ahat": 0.0404,
+   "decision_probe_auc": 0.523,
+   "decision_ci": [
+    0.493,
+    0.554
+   ]
+  },
+  "ols_full(in-sample)": {
+   "R2_phi_to_srep": -0.5677,
+   "corr_srep_ahat": 0.0026,
+   "decision_probe_auc": 0.494,
+   "decision_ci": [
+    0.465,
+    0.524
+   ]
+  },
+  "raw": {
+   "R2_phi_to_s": 0.4347,
+   "decision_probe_auc": 0.843,
+   "decision_ci": [
+    0.824,
+    0.86
+   ]
+  }
+ }
+}

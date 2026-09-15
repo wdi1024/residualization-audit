@@ -1,0 +1,16 @@
+[SNLI] ridge_cv(paper)      R2(phi->s_rep)=-0.2967  corr(s_rep,a_hat)=-0.0136  decisionAUC=0.451 [0.428, 0.474]
+[SNLI] ols_cv               R2(phi->s_rep)=-0.3569  corr(s_rep,a_hat)=-0.0455  decisionAUC=0.492 [0.469, 0.514]
+[SNLI] ols_full(in-sample)  R2(phi->s_rep)=-0.5014  corr(s_rep,a_hat)=-0.0329  decisionAUC=0.489 [0.465, 0.513]
+[SNLI] raw                  R2(phi->s)=+0.1004  decisionAUC=0.627 [0.604, 0.65]
+Traceback (most recent call last):
+  File "/Users/wondaein/ai-vault/experiments/proxy_repair/scripts/certificate_exact.py", line 92, in <module>
+    hyp, y, s = loader()
+  File "/Users/wondaein/ai-vault/experiments/proxy_repair/scripts/robustness_suite.py", line 64, in load_sick
+    rows += [x["row"] for x in json.loads(out)["rows"]]
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)

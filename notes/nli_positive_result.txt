@@ -1,0 +1,7 @@
+
+=== NLI (SNLI, distilbert-mnli, n=2400) — repair ===
+hypothesis-only AUC (artifact strength): 0.750
+            AUC full   AUC on artifact-adversarial slice
+raw s          0.958                               0.928   (n_adv=759)
+repaired       0.870                               0.967
+기대: 아티팩트-오도 슬라이스에서 raw는 낮고 repaired가 올라가면 = 양성 (복원이 정렬 회복)

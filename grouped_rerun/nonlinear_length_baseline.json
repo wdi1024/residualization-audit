@@ -1,0 +1,289 @@
+{
+ "R2_of_correction": {
+  "resid_full_phi": 0.2845,
+  "resid_length_linear": 0.0687,
+  "resid_length_isotonic": -0.001,
+  "resid_length_spline": 0.1111,
+  "resid_length_boosted": 0.1794
+ },
+ "effects": {
+  "correct_light_raw": {
+   "mean": -0.2272,
+   "CI": [
+    -0.2675,
+    -0.1897
+   ]
+  },
+  "correct_heavy_raw": {
+   "mean": 0.0832,
+   "CI": [
+    0.0036,
+    0.159
+   ]
+  },
+  "buggy_light_raw": {
+   "mean": -0.1991,
+   "CI": [
+    -0.2386,
+    -0.1628
+   ]
+  },
+  "buggy_heavy_raw": {
+   "mean": 0.1537,
+   "CI": [
+    0.0833,
+    0.2291
+   ]
+  },
+  "margin_terse_raw": {
+   "mean": 0.1578,
+   "CI": [
+    0.1281,
+    0.1862
+   ]
+  },
+  "margin_verbose_raw": {
+   "mean": 0.0874,
+   "CI": [
+    0.0687,
+    0.1075
+   ]
+  },
+  "correct_light_resid_full_phi": {
+   "mean": -0.0176,
+   "CI": [
+    -0.0551,
+    0.0175
+   ]
+  },
+  "correct_heavy_resid_full_phi": {
+   "mean": -0.0353,
+   "CI": [
+    -0.1038,
+    0.0419
+   ]
+  },
+  "buggy_light_resid_full_phi": {
+   "mean": 0.0184,
+   "CI": [
+    -0.0156,
+    0.0522
+   ]
+  },
+  "buggy_heavy_resid_full_phi": {
+   "mean": 0.0348,
+   "CI": [
+    -0.0342,
+    0.1086
+   ]
+  },
+  "margin_terse_resid_full_phi": {
+   "mean": 0.16,
+   "CI": [
+    0.1271,
+    0.1907
+   ]
+  },
+  "margin_verbose_resid_full_phi": {
+   "mean": 0.0899,
+   "CI": [
+    0.0702,
+    0.1094
+   ]
+  },
+  "correct_light_resid_length_linear": {
+   "mean": -0.1696,
+   "CI": [
+    -0.2076,
+    -0.1315
+   ]
+  },
+  "correct_heavy_resid_length_linear": {
+   "mean": 0.6199,
+   "CI": [
+    0.5444,
+    0.6943
+   ]
+  },
+  "buggy_light_resid_length_linear": {
+   "mean": -0.1408,
+   "CI": [
+    -0.1793,
+    -0.1039
+   ]
+  },
+  "buggy_heavy_resid_length_linear": {
+   "mean": 0.6824,
+   "CI": [
+    0.6071,
+    0.7509
+   ]
+  },
+  "margin_terse_resid_length_linear": {
+   "mean": 0.1564,
+   "CI": [
+    0.1259,
+    0.1868
+   ]
+  },
+  "margin_verbose_resid_length_linear": {
+   "mean": 0.0939,
+   "CI": [
+    0.0749,
+    0.1138
+   ]
+  },
+  "correct_light_resid_length_isotonic": {
+   "mean": -0.2263,
+   "CI": [
+    -0.2655,
+    -0.1893
+   ]
+  },
+  "correct_heavy_resid_length_isotonic": {
+   "mean": 0.0841,
+   "CI": [
+    0.0095,
+    0.1632
+   ]
+  },
+  "buggy_light_resid_length_isotonic": {
+   "mean": -0.1975,
+   "CI": [
+    -0.2358,
+    -0.1613
+   ]
+  },
+  "buggy_heavy_resid_length_isotonic": {
+   "mean": 0.1509,
+   "CI": [
+    0.0807,
+    0.2246
+   ]
+  },
+  "margin_terse_resid_length_isotonic": {
+   "mean": 0.1581,
+   "CI": [
+    0.1298,
+    0.1878
+   ]
+  },
+  "margin_verbose_resid_length_isotonic": {
+   "mean": 0.0913,
+   "CI": [
+    0.0726,
+    0.1108
+   ]
+  },
+  "correct_light_resid_length_spline": {
+   "mean": -0.0786,
+   "CI": [
+    -0.1176,
+    -0.0409
+   ]
+  },
+  "correct_heavy_resid_length_spline": {
+   "mean": 0.4766,
+   "CI": [
+    0.3988,
+    0.5615
+   ]
+  },
+  "buggy_light_resid_length_spline": {
+   "mean": -0.0485,
+   "CI": [
+    -0.0853,
+    -0.0113
+   ]
+  },
+  "buggy_heavy_resid_length_spline": {
+   "mean": 0.5408,
+   "CI": [
+    0.4644,
+    0.6185
+   ]
+  },
+  "margin_terse_resid_length_spline": {
+   "mean": 0.1573,
+   "CI": [
+    0.128,
+    0.1889
+   ]
+  },
+  "margin_verbose_resid_length_spline": {
+   "mean": 0.0931,
+   "CI": [
+    0.0732,
+    0.1125
+   ]
+  },
+  "correct_light_resid_length_boosted": {
+   "mean": -0.1283,
+   "CI": [
+    -0.1801,
+    -0.077
+   ]
+  },
+  "correct_heavy_resid_length_boosted": {
+   "mean": 0.3339,
+   "CI": [
+    0.2553,
+    0.4177
+   ]
+  },
+  "buggy_light_resid_length_boosted": {
+   "mean": -0.0836,
+   "CI": [
+    -0.1363,
+    -0.0336
+   ]
+  },
+  "buggy_heavy_resid_length_boosted": {
+   "mean": 0.4146,
+   "CI": [
+    0.3394,
+    0.4914
+   ]
+  },
+  "margin_terse_resid_length_boosted": {
+   "mean": 0.1736,
+   "CI": [
+    0.1386,
+    0.2077
+   ]
+  },
+  "margin_verbose_resid_length_boosted": {
+   "mean": 0.0929,
+   "CI": [
+    0.0691,
+    0.1161
+   ]
+  }
+ },
+ "summary": {
+  "raw": {
+   "format_effects_covering_zero": 0,
+   "of": 4
+  },
+  "resid_full_phi": {
+   "format_effects_covering_zero": 4,
+   "of": 4
+  },
+  "resid_length_linear": {
+   "format_effects_covering_zero": 0,
+   "of": 4
+  },
+  "resid_length_isotonic": {
+   "format_effects_covering_zero": 0,
+   "of": 4
+  },
+  "resid_length_spline": {
+   "format_effects_covering_zero": 0,
+   "of": 4
+  },
+  "resid_length_boosted": {
+   "format_effects_covering_zero": 0,
+   "of": 4
+  }
+ }
+}

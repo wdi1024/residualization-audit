@@ -1,0 +1,11 @@
+{
+ "experiment": "placebo slice test (matched-AUC synthetic predictor)",
+ "settings": [
+  "squad",
+  "wikiqa",
+  "duorc"
+ ],
+ "placebo": "u = sqrt(2)*Phi^-1(C1)*y + N(0,1), rate-calibrated slice rule verbatim, B=200, seed 0",
+ "protocol": "question-grouped GroupKFold(5), ridge alpha=1, cached scorer outputs (no new scoring)",
+ "committed_prediction": "placebo-slice gains concentrate near the full-population gain (negative), far below the declared-slice gain, in all three settings"
+}

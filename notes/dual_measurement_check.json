@@ -1,0 +1,49 @@
+{
+ "synthetic_two_reading": [
+  {
+   "rho": 0.0,
+   "n_adv": 1984,
+   "gain_on_y1_(circular)": 0.03354633120706085,
+   "gain_on_y2_(independent_reading)": 0.05597990566224087
+  },
+  {
+   "rho": 0.2,
+   "n_adv": 1794,
+   "gain_on_y1_(circular)": 0.4700394114522002,
+   "gain_on_y2_(independent_reading)": 0.242885379190802
+  },
+  {
+   "rho": 0.4,
+   "n_adv": 1653,
+   "gain_on_y1_(circular)": 0.506481413700716,
+   "gain_on_y2_(independent_reading)": 0.20283495714599664
+  },
+  {
+   "rho": 0.6,
+   "n_adv": 1432,
+   "gain_on_y1_(circular)": 0.5253125640500101,
+   "gain_on_y2_(independent_reading)": 0.15031648039460543
+  },
+  {
+   "rho": 0.8,
+   "n_adv": 1208,
+   "gain_on_y1_(circular)": 0.5374506254114549,
+   "gain_on_y2_(independent_reading)": 0.057853980784781434
+  }
+ ],
+ "snli_annotator_split": {
+  "n_kept": 2273,
+  "yA_yB_agreement": 0.9929608446986362,
+  "n_adv": 800,
+  "slice_AUC_yA": [
+   0.934535270435848,
+   0.9685679277837513
+  ],
+  "slice_AUC_yB_independent": [
+   0.938375087508751,
+   0.9647402240224022
+  ],
+  "gain_yA_(shares_slice_label)": 0.03403265734790328,
+  "gain_yB_(disjoint_annotators)": 0.026365136513651244
+ }
+}

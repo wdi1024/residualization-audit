@@ -1,0 +1,134 @@
+{
+ "n": 1412,
+ "n_problems": 353,
+ "C1": 0.3982236435570465,
+ "C2_R2_phi_to_s": 0.28265221339450364,
+ "effects_raw": {
+  "format_given_correct": {
+   "mean": 0.08323377021522427,
+   "CI": [
+    0.011238303867092216,
+    0.1568958418966184
+   ],
+   "n_problems": 353
+  },
+  "format_given_buggy": {
+   "mean": 0.15365433081900093,
+   "CI": [
+    0.07778369067711677,
+    0.2284792084054277
+   ],
+   "n_problems": 353
+  },
+  "construct_given_terse": {
+   "mean": 0.15777141709545517,
+   "CI": [
+    0.1278185937018068,
+    0.18740324112890083
+   ],
+   "n_problems": 353
+  },
+  "construct_given_verbose": {
+   "mean": 0.0873508564916785,
+   "CI": [
+    0.06858343578157446,
+    0.10628776820798645
+   ],
+   "n_problems": 353
+  }
+ },
+ "effects_residualized": {
+  "format_given_correct": {
+   "mean": -0.04118821541669779,
+   "CI": [
+    -0.11031389619052927,
+    0.03141568290764437
+   ],
+   "n_problems": 353
+  },
+  "format_given_buggy": {
+   "mean": 0.03467288390946048,
+   "CI": [
+    -0.03039733262977554,
+    0.10148646285405358
+   ],
+   "n_problems": 353
+  },
+  "construct_given_terse": {
+   "mean": 0.160056248036088,
+   "CI": [
+    0.13009317712825738,
+    0.19075545605370844
+   ],
+   "n_problems": 353
+  },
+  "construct_given_verbose": {
+   "mean": 0.08419514870992975,
+   "CI": [
+    0.06377278986427168,
+    0.10438100158482792
+   ],
+   "n_problems": 353
+  }
+ },
+ "A_full": [
+  0.5286275469669124,
+  0.5304953895786019
+ ],
+ "A_full_delta_clusterCI": [
+  -0.0005236880963653851,
+  0.004567336628975506
+ ],
+ "pref_acc": {
+  "raw": 0.7521246458923513,
+  "residualized": 0.7393767705382436
+ },
+ "cert_format_corr": [
+  0.010517427830479235,
+  0.012562798751668446
+ ],
+ "committed": {
+  "C1_screen": 0.3982236435570465,
+  "committed_prediction": "C1 fails: label-defined slice unavailable; screen refuses slice-level repair. Committed fallback analysis: measure the RM's format-loading R2(phi->s) and the paired format/construct effects; residualization is licensed by construction (format edits are semantics-preserving), validated on the FULL population.",
+  "gates": {
+   "C1": 0.65,
+   "C2_R2": 0.05,
+   "C2_Dadv": 0.03,
+   "cert": 0.05
+  }
+ },
+ "cross_format_pref": {
+  "correct_terse_vs_buggy_verbose": {
+   "raw": [
+    0.5071,
+    [
+     0.4533,
+     0.5552
+    ]
+   ],
+   "residualized": [
+    0.5864,
+    [
+     0.5354,
+     0.6374
+    ]
+   ]
+  },
+  "correct_verbose_vs_buggy_terse": {
+   "raw": [
+    0.6147,
+    [
+     0.5637,
+     0.6629
+    ]
+   ],
+   "residualized": [
+    0.5496,
+    [
+     0.4986,
+     0.6034
+    ]
+   ]
+  }
+ }
+}

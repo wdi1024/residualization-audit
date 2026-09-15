@@ -1,0 +1,17 @@
+{
+ "n": 8000,
+ "n_adv": 1472,
+ "n_adv_with_alt": 1472,
+ "y1_y2_agreement_on_alt_rows": 0.9726147305239464,
+ "slice_gain_y1_same_label": 0.17681504017013228,
+ "slice_gain_y1_on_alt_subset": 0.17681504017013228,
+ "slice_gain_y2_independent": 0.15522015651955023,
+ "slice_AUC_y2": [
+  0.7201916883232269,
+  0.8754118448427771
+ ],
+ "gain_y2_clusterCI": [
+  0.13596760061221363,
+  0.17499901882391175
+ ]
+}

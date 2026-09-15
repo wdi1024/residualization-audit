@@ -1,0 +1,180 @@
+{
+ "dev_selection": {
+  "F2r": {
+   "grid": [
+    [
+     50,
+     -0.0572
+    ],
+    [
+     70,
+     -0.0444
+    ],
+    [
+     80,
+     -0.0353
+    ],
+    [
+     90,
+     -0.0253
+    ]
+   ],
+   "selected": 90,
+   "dev_mean_delta": -0.0253
+  },
+  "F3r": {
+   "grid": [
+    [
+     10,
+     -0.0339
+    ],
+    [
+     20,
+     -0.0477
+    ],
+    [
+     30,
+     -0.061
+    ]
+   ],
+   "selected": 10,
+   "dev_mean_delta": -0.0339
+  },
+  "Blend": {
+   "grid": [
+    [
+     0.25,
+     -0.0101
+    ],
+    [
+     0.5,
+     -0.0227
+    ],
+    [
+     0.75,
+     -0.0411
+    ]
+   ],
+   "selected": 0.25,
+   "dev_mean_delta": -0.0101
+  },
+  "QC": {
+   "grid": [
+    [
+     0.5,
+     -0.0179
+    ],
+    [
+     1.0,
+     -0.0523
+    ]
+   ],
+   "selected": 0.5,
+   "dev_mean_delta": -0.0179
+  }
+ },
+ "frozen_heldout": {
+  "squad": {
+   "F2r": {
+    "param": 90,
+    "full_delta": -0.063,
+    "clusterCI": [
+     -0.072,
+     -0.0539
+    ]
+   },
+   "F3r": {
+    "param": 10,
+    "full_delta": -0.0688,
+    "clusterCI": [
+     -0.078,
+     -0.0599
+    ]
+   },
+   "Blend": {
+    "param": 0.25,
+    "full_delta": -0.0012,
+    "clusterCI": [
+     -0.0032,
+     0.0007
+    ]
+   },
+   "QC": {
+    "param": 0.5,
+    "full_delta": -0.0173,
+    "clusterCI": [
+     -0.0207,
+     -0.0137
+    ]
+   }
+  },
+  "duorc": {
+   "F2r": {
+    "param": 90,
+    "full_delta": -0.0557,
+    "clusterCI": [
+     -0.0708,
+     -0.0412
+    ]
+   },
+   "F3r": {
+    "param": 10,
+    "full_delta": -0.0578,
+    "clusterCI": [
+     -0.0719,
+     -0.0443
+    ]
+   },
+   "Blend": {
+    "param": 0.25,
+    "full_delta": -0.0088,
+    "clusterCI": [
+     -0.0132,
+     -0.0048
+    ]
+   },
+   "QC": {
+    "param": 0.5,
+    "full_delta": -0.0177,
+    "clusterCI": [
+     -0.0232,
+     -0.0123
+    ]
+   }
+  },
+  "triviaqa": {
+   "F2r": {
+    "param": 90,
+    "full_delta": -0.0194,
+    "clusterCI": [
+     -0.0248,
+     -0.0141
+    ]
+   },
+   "F3r": {
+    "param": 10,
+    "full_delta": -0.0321,
+    "clusterCI": [
+     -0.0374,
+     -0.027
+    ]
+   },
+   "Blend": {
+    "param": 0.25,
+    "full_delta": -0.012,
+    "clusterCI": [
+     -0.0144,
+     -0.0096
+    ]
+   },
+   "QC": {
+    "param": 0.5,
+    "full_delta": -0.0365,
+    "clusterCI": [
+     -0.0398,
+     -0.0329
+    ]
+   }
+  }
+ }
+}

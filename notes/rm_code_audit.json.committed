@@ -1,0 +1,10 @@
+{
+ "C1_screen": 0.3982236435570465,
+ "committed_prediction": "C1 fails: label-defined slice unavailable; screen refuses slice-level repair. Committed fallback analysis: measure the RM's format-loading R2(phi->s) and the paired format/construct effects; residualization is licensed by construction (format edits are semantics-preserving), validated on the FULL population.",
+ "gates": {
+  "C1": 0.65,
+  "C2_R2": 0.05,
+  "C2_Dadv": 0.03,
+  "cert": 0.05
+ }
+}

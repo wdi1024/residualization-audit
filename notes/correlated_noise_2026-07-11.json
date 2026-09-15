@@ -1,0 +1,26 @@
+{
+ "rho": 0.8,
+ "true_gain": -0.1909946797380293,
+ "noise": {
+  "symmetric": {
+   "flip_rate": 0.2015,
+   "measured_gain": -0.11477527869381976,
+   "false_approval": false
+  },
+  "class_dependent": {
+   "flip_rate": 0.196,
+   "measured_gain": -0.135617877254276,
+   "false_approval": false
+  },
+  "artifact_corr": {
+   "flip_rate": 0.3115,
+   "measured_gain": 0.0873377685898139,
+   "false_approval": true
+  },
+  "score_corr": {
+   "flip_rate": 0.20275,
+   "measured_gain": -0.22742799963194704,
+   "false_approval": false
+  }
+ }
+}

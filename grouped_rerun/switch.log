@@ -1,0 +1,95 @@
+Using the latest cached version of the dataset since squad couldn't be found on the Hugging Face Hub
+Found the latest cached dataset configuration 'plain_text' at /Users/wondaein/.cache/huggingface/datasets/squad/plain_text/0.0.0/7b6d24c440a36b6815f21b70d25016731768db1f (last modified on Tue Jul 28 01:35:59 2026).
+Using the latest cached version of the dataset since squad couldn't be found on the Hugging Face Hub
+Found the latest cached dataset configuration 'plain_text' at /Users/wondaein/.cache/huggingface/datasets/squad/plain_text/0.0.0/7b6d24c440a36b6815f21b70d25016731768db1f (last modified on Tue Jul 28 01:35:59 2026).
+squad {
+ "raw": {
+  "full": 0.9316,
+  "slice": 0.706
+ },
+ "full_repair": {
+  "full": 0.8351,
+  "slice": 0.8828
+ },
+ "switch_top10": {
+  "full": 0.9114,
+  "slice": 0.7547,
+  "n_switched": 800
+ },
+ "switch_top20": {
+  "full": 0.9095,
+  "slice": 0.7541,
+  "n_switched": 1600
+ },
+ "switch_top30": {
+  "full": 0.9051,
+  "slice": 0.7643,
+  "n_switched": 2400
+ },
+ "switch_top50": {
+  "full": 0.8869,
+  "slice": 0.8068,
+  "n_switched": 4000
+ }
+}
+duorc {
+ "raw": {
+  "full": 0.9508,
+  "slice": 0.8081
+ },
+ "full_repair": {
+  "full": 0.8711,
+  "slice": 0.8687
+ },
+ "switch_top10": {
+  "full": 0.9386,
+  "slice": 0.7722,
+  "n_switched": 800
+ },
+ "switch_top20": {
+  "full": 0.9299,
+  "slice": 0.7814,
+  "n_switched": 1600
+ },
+ "switch_top30": {
+  "full": 0.9214,
+  "slice": 0.8034,
+  "n_switched": 2400
+ },
+ "switch_top50": {
+  "full": 0.9111,
+  "slice": 0.8412,
+  "n_switched": 4000
+ }
+}
+triviaqa {
+ "raw": {
+  "full": 0.7056,
+  "slice": 0.4741
+ },
+ "full_repair": {
+  "full": 0.6365,
+  "slice": 0.6261
+ },
+ "switch_top10": {
+  "full": 0.7032,
+  "slice": 0.501,
+  "n_switched": 1127
+ },
+ "switch_top20": {
+  "full": 0.7012,
+  "slice": 0.4814,
+  "n_switched": 2253
+ },
+ "switch_top30": {
+  "full": 0.7022,
+  "slice": 0.4664,
+  "n_switched": 3379
+ },
+ "switch_top50": {
+  "full": 0.7007,
+  "slice": 0.4868,
+  "n_switched": 5632
+ }
+}
+wrote risk_flag_switch.json

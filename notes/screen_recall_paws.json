@@ -1,0 +1,71 @@
+{
+ "candidate": "paws",
+ "n": 4000,
+ "pos_rate": 0.45075,
+ "grouped_cv": false,
+ "n_groups": 3858,
+ "screen_C1": 0.538,
+ "C1_remeasured_screen_cv": 0.537594248800424,
+ "C1_remeasured_at_screen_n": null,
+ "C1_pipeline_cv": 0.537594248800424,
+ "C1_gate_pass": false,
+ "s_raw_AUC_full": 0.5536682023159196,
+ "C2_R2_phi_to_s": 0.10356528997361347,
+ "C2_Delta_adv": -0.03571608137472637,
+ "C2_pass": false,
+ "A_full": [
+  0.5536682023159196,
+  0.5591734910030847
+ ],
+ "A_adv": [
+  0.589384283690646,
+  0.5977900038674365
+ ],
+ "n_adv": 1878,
+ "slice_gain": 0.008405720176790532,
+ "slice_gain_CI": [
+  -0.014047289136474466,
+  0.03270235417602315
+ ],
+ "full_gain": 0.005505288687165044,
+ "full_gain_CI": [
+  -0.009994157472773027,
+  0.020831639582048766
+ ],
+ "decorrelation_before_after": [
+  0.03808456079203841,
+  0.04982708686651273
+ ],
+ "cert_after_CI": [
+  0.017336024219461735,
+  0.08078321150544324
+ ],
+ "cert_pass": true,
+ "pipeline_ran_to_completion": true,
+ "verdict": "true negative: C2 fails (R2=0.104, Dadv=-0.036); slice gain not significantly positive (+0.008 CI [-0.014047289136474466, 0.03270235417602315])",
+ "screen_FN": false,
+ "committed": {
+  "candidate": "paws",
+  "n": 4000,
+  "scorer": "textattack/bert-base-uncased-QQP",
+  "score_def": "softmax:1",
+  "phi": "full n=4000; phi = pair-text TF-IDF (screen verbatim); sentence1-grouped; QQP-bert on PAWS = the canonical artifact-corrupted off-distribution pairing",
+  "pairing_rationale": "QQP-trained bert applied to PAWS, which was constructed so that overlap-reliant QQP models fail -> score genuinely artifact-corrupted (C2 expected to hold; C1 is what failed).",
+  "slice_rule": "rate-calibrated: adv = (art_prob > quantile(art_prob, 1-mean(y))) != (y==1)",
+  "cv": "KFold(5, shuffle, seed 0)",
+  "gates": {
+   "C1": 0.65,
+   "C2_R2": 0.05,
+   "C2_Dadv": 0.03,
+   "cert": 0.05
+  },
+  "screen_C1": 0.538,
+  "remeasured_C1": 0.537594248800424,
+  "remeasured_C1_at_screen_n": null,
+  "committed_prediction": "no validated positive expected (screen C1 0.538 < 0.65 -> refusal)"
+ },
+ "spot_check_n": 32,
+ "spot_check_max_absdiff": 0.0,
+ "determinism_check": "PASS: all statistics identical across two processes; scorer spot-check max|diff|=0.0",
+ "runtime_s": 33.9
+}

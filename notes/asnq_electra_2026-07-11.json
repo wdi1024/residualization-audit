@@ -1,0 +1,22 @@
+{
+ "scorer": "cross-encoder/ms-marco-electra-base",
+ "R2_phi_to_s": 0.197,
+ "Delta_adv": 0.283,
+ "A_full": [
+  0.839,
+  0.589
+ ],
+ "A_adv": [
+  0.556,
+  0.714
+ ],
+ "adv_gain": 0.158,
+ "adv_gain_ci": [
+  0.125,
+  0.189
+ ],
+ "R_lin": [
+  0.347,
+  0.023
+ ]
+}

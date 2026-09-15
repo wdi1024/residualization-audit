@@ -1,0 +1,32 @@
+[
+ {
+  "lambda": 0.0,
+  "validation_gain": 0.014399903288792038,
+  "truth_gain": 0.17440498421590855,
+  "verdict_agrees": true
+ },
+ {
+  "lambda": 0.25,
+  "validation_gain": -0.00481920160500815,
+  "truth_gain": 0.17440498421590855,
+  "verdict_agrees": false
+ },
+ {
+  "lambda": 0.5,
+  "validation_gain": -0.021498308215455175,
+  "truth_gain": 0.17440498421590855,
+  "verdict_agrees": false
+ },
+ {
+  "lambda": 0.75,
+  "validation_gain": -0.041842379392818096,
+  "truth_gain": 0.17440498421590855,
+  "verdict_agrees": false
+ },
+ {
+  "lambda": 1.0,
+  "validation_gain": -0.06461561539038474,
+  "truth_gain": 0.17440498421590855,
+  "verdict_agrees": false
+ }
+]

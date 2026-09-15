@@ -1,0 +1,170 @@
+{
+ "correct_light_raw": {
+  "mean": -0.2272,
+  "CI": [
+   -0.2675,
+   -0.1897
+  ]
+ },
+ "correct_heavy_raw": {
+  "mean": 0.0832,
+  "CI": [
+   0.0036,
+   0.159
+  ]
+ },
+ "buggy_light_raw": {
+  "mean": -0.1991,
+  "CI": [
+   -0.2386,
+   -0.1628
+  ]
+ },
+ "buggy_heavy_raw": {
+  "mean": 0.1537,
+  "CI": [
+   0.0833,
+   0.2291
+  ]
+ },
+ "margin_terse_raw": {
+  "mean": 0.1578,
+  "CI": [
+   0.1281,
+   0.1862
+  ]
+ },
+ "margin_verbose_raw": {
+  "mean": 0.0874,
+  "CI": [
+   0.0687,
+   0.1075
+  ]
+ },
+ "correct_light_resid_full_phi": {
+  "mean": -0.0176,
+  "CI": [
+   -0.0551,
+   0.0175
+  ]
+ },
+ "correct_heavy_resid_full_phi": {
+  "mean": -0.0353,
+  "CI": [
+   -0.1038,
+   0.0419
+  ]
+ },
+ "buggy_light_resid_full_phi": {
+  "mean": 0.0184,
+  "CI": [
+   -0.0156,
+   0.0522
+  ]
+ },
+ "buggy_heavy_resid_full_phi": {
+  "mean": 0.0348,
+  "CI": [
+   -0.0342,
+   0.1086
+  ]
+ },
+ "margin_terse_resid_full_phi": {
+  "mean": 0.16,
+  "CI": [
+   0.1271,
+   0.1907
+  ]
+ },
+ "margin_verbose_resid_full_phi": {
+  "mean": 0.0899,
+  "CI": [
+   0.0702,
+   0.1094
+  ]
+ },
+ "correct_light_resid_length_chars": {
+  "mean": -0.1696,
+  "CI": [
+   -0.2076,
+   -0.1315
+  ]
+ },
+ "correct_heavy_resid_length_chars": {
+  "mean": 0.6199,
+  "CI": [
+   0.5444,
+   0.6943
+  ]
+ },
+ "buggy_light_resid_length_chars": {
+  "mean": -0.1408,
+  "CI": [
+   -0.1793,
+   -0.1039
+  ]
+ },
+ "buggy_heavy_resid_length_chars": {
+  "mean": 0.6824,
+  "CI": [
+   0.6071,
+   0.7509
+  ]
+ },
+ "margin_terse_resid_length_chars": {
+  "mean": 0.1564,
+  "CI": [
+   0.1259,
+   0.1868
+  ]
+ },
+ "margin_verbose_resid_length_chars": {
+  "mean": 0.0939,
+  "CI": [
+   0.0749,
+   0.1138
+  ]
+ },
+ "correct_light_resid_length_tokens": {
+  "mean": -0.1557,
+  "CI": [
+   -0.1949,
+   -0.119
+  ]
+ },
+ "correct_heavy_resid_length_tokens": {
+  "mean": 0.7299,
+  "CI": [
+   0.657,
+   0.8097
+  ]
+ },
+ "buggy_light_resid_length_tokens": {
+  "mean": -0.1264,
+  "CI": [
+   -0.1648,
+   -0.0905
+  ]
+ },
+ "buggy_heavy_resid_length_tokens": {
+  "mean": 0.7945,
+  "CI": [
+   0.7248,
+   0.867
+  ]
+ },
+ "margin_terse_resid_length_tokens": {
+  "mean": 0.1574,
+  "CI": [
+   0.1285,
+   0.187
+  ]
+ },
+ "margin_verbose_resid_length_tokens": {
+  "mean": 0.0928,
+  "CI": [
+   0.0747,
+   0.1119
+  ]
+ }
+}

@@ -1,0 +1,10 @@
+{
+ "C1_screen": 0.8123923692786826,
+ "committed_prediction": "repair expected (C1 passes; C2 to be measured)",
+ "gates": {
+  "C1": 0.65,
+  "C2_R2": 0.05,
+  "C2_Dadv": 0.03,
+  "cert": 0.05
+ }
+}

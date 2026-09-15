@@ -1,0 +1,67 @@
+{
+ "n_light_problems": 353,
+ "correct_light_raw": {
+  "mean": -0.2272,
+  "CI": [
+   -0.2675,
+   -0.1897
+  ],
+  "n_problems": 353
+ },
+ "correct_light_residualized": {
+  "mean": -0.0176,
+  "CI": [
+   -0.0557,
+   0.0195
+  ],
+  "n_problems": 353
+ },
+ "correct_heavy_raw": {
+  "mean": 0.0832,
+  "CI": [
+   0.0079,
+   0.1586
+  ],
+  "n_problems": 353
+ },
+ "correct_heavy_residualized": {
+  "mean": -0.0353,
+  "CI": [
+   -0.109,
+   0.0408
+  ],
+  "n_problems": 353
+ },
+ "buggy_light_raw": {
+  "mean": -0.1991,
+  "CI": [
+   -0.2386,
+   -0.1627
+  ],
+  "n_problems": 353
+ },
+ "buggy_light_residualized": {
+  "mean": 0.0184,
+  "CI": [
+   -0.0143,
+   0.0505
+  ],
+  "n_problems": 353
+ },
+ "buggy_heavy_raw": {
+  "mean": 0.1537,
+  "CI": [
+   0.0815,
+   0.2295
+  ],
+  "n_problems": 353
+ },
+ "buggy_heavy_residualized": {
+  "mean": 0.0348,
+  "CI": [
+   -0.0329,
+   0.1072
+  ],
+  "n_problems": 353
+ }
+}

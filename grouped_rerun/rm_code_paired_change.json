@@ -1,0 +1,344 @@
+{
+ "mbpp_base": {
+  "tag": "MBPP, deberta-v3-base RM",
+  "n": 1412,
+  "n_problems": 353,
+  "format_given_correct": {
+   "raw": 0.08323377021522427,
+   "raw_ci": [
+    0.011238303867092216,
+    0.1568958418966184
+   ],
+   "res": -0.04118821541669779,
+   "res_ci": [
+    -0.10979519555885835,
+    0.028719420315671904
+   ],
+   "change": -0.12442198563192204,
+   "change_ci": [
+    -0.14166750681861,
+    -0.10418154657529768
+   ],
+   "n_problems": 353
+  },
+  "format_given_buggy": {
+   "raw": 0.15365433081900093,
+   "raw_ci": [
+    0.07778369067711677,
+    0.2284792084054277
+   ],
+   "res": 0.03467288390946048,
+   "res_ci": [
+    -0.03804236965122821,
+    0.10636230926276911
+   ],
+   "change": -0.11898144690954046,
+   "change_ci": [
+    -0.13500556319252016,
+    -0.10259276122990305
+   ],
+   "n_problems": 353
+  },
+  "construct_given_terse": {
+   "raw": 0.15777141709545517,
+   "raw_ci": [
+    0.1278185937018068,
+    0.18740324112890083
+   ],
+   "res": 0.160056248036088,
+   "res_ci": [
+    0.12968383941503592,
+    0.19094219339953603
+   ],
+   "change": 0.002284830940632851,
+   "change_ci": [
+    -0.0042340855926633015,
+    0.00872075611836242
+   ],
+   "n_problems": 353
+  },
+  "construct_given_verbose": {
+   "raw": 0.0873508564916785,
+   "raw_ci": [
+    0.06858343578157446,
+    0.10628776820798645
+   ],
+   "res": 0.08419514870992975,
+   "res_ci": [
+    0.06423466060747123,
+    0.1045172429159868
+   ],
+   "change": -0.0031557077817487428,
+   "change_ci": [
+    -0.010032547510133523,
+    0.0027956774673831494
+   ],
+   "n_problems": 353
+  },
+  "format_asymmetry": {
+   "raw": 0.07042056060377666,
+   "raw_ci": [
+    0.05542712386159315,
+    0.08429449610385736
+   ],
+   "res": 0.07586109932615827,
+   "res_ci": [
+    0.05902254700736886,
+    0.09229328095919775
+   ],
+   "change": 0.005440538722381608,
+   "change_ci": [
+    -0.0027430910853253145,
+    0.013984005524878903
+   ]
+  }
+ },
+ "MBPP, deberta-v3-large-v2 RM": {
+  "tag": "MBPP, deberta-v3-large-v2 RM",
+  "n": 1412,
+  "n_problems": 353,
+  "format_given_correct": {
+   "raw": -0.3351296652108431,
+   "raw_ci": [
+    -0.4261243701093268,
+    -0.24830000407033453
+   ],
+   "res": -0.05452544243791434,
+   "res_ci": [
+    -0.14694393277407622,
+    0.03269349900083586
+   ],
+   "change": 0.28060422277292874,
+   "change_ci": [
+    0.2695552422384846,
+    0.2914222964167843
+   ],
+   "n_problems": 353
+  },
+  "format_given_buggy": {
+   "raw": -0.24449192761066277,
+   "raw_ci": [
+    -0.3269755606244057,
+    -0.16146950816719796
+   ],
+   "res": 0.04108983337233621,
+   "res_ci": [
+    -0.04256460966839713,
+    0.12401017482733648
+   ],
+   "change": 0.285581760982999,
+   "change_ci": [
+    0.2742264211974024,
+    0.2966242395076611
+   ],
+   "n_problems": 353
+  },
+  "construct_given_terse": {
+   "raw": 0.24059094666442687,
+   "raw_ci": [
+    0.19468006748988403,
+    0.2935807561947735
+   ],
+   "res": 0.23986600380107584,
+   "res_ci": [
+    0.19205266484481906,
+    0.2928675057748739
+   ],
+   "change": -0.0007249428633510042,
+   "change_ci": [
+    -0.010700572486801074,
+    0.00830602081867552
+   ],
+   "n_problems": 353
+  },
+  "construct_given_verbose": {
+   "raw": 0.14995320906424658,
+   "raw_ci": [
+    0.11723146590512383,
+    0.18226359320313748
+   ],
+   "res": 0.14425072799082533,
+   "res_ci": [
+    0.11091204353169459,
+    0.17772012079207486
+   ],
+   "change": -0.005702481073421246,
+   "change_ci": [
+    -0.013865093450055849,
+    0.0021867649729789647
+   ],
+   "n_problems": 353
+  },
+  "format_asymmetry": {
+   "raw": 0.09063773760018032,
+   "raw_ci": [
+    0.06785505684356473,
+    0.11482440677297331
+   ],
+   "res": 0.09561527581025055,
+   "res_ci": [
+    0.07128747153106586,
+    0.12237017633859561
+   ],
+   "change": 0.004977538210070229,
+   "change_ci": [
+    -0.005812861219584156,
+    0.016776270718123126
+   ]
+  }
+ },
+ "HumanEval, deberta-v3-base RM": {
+  "tag": "HumanEval, deberta-v3-base RM",
+  "n": 584,
+  "n_problems": 146,
+  "format_given_correct": {
+   "raw": 1.240573674338321,
+   "raw_ci": [
+    1.134984828029083,
+    1.34572735106547
+   ],
+   "res": 0.08146954487575321,
+   "res_ci": [
+    -0.019431417824487984,
+    0.18140290571838405
+   ],
+   "change": -1.159104129462568,
+   "change_ci": [
+    -1.1907128494002344,
+    -1.1266752383682943
+   ],
+   "n_problems": 146
+  },
+  "format_given_buggy": {
+   "raw": 1.2380251777039406,
+   "raw_ci": [
+    1.1293771175616611,
+    1.3469764214953126
+   ],
+   "res": 0.08067238139889231,
+   "res_ci": [
+    -0.02256705135038057,
+    0.1802102118224928
+   ],
+   "change": -1.1573527963050485,
+   "change_ci": [
+    -1.1870705647463204,
+    -1.1278994773711133
+   ],
+   "n_problems": 146
+  },
+  "construct_given_terse": {
+   "raw": 0.03888425404486591,
+   "raw_ci": [
+    0.02124530027990472,
+    0.06000598032435733
+   ],
+   "res": 0.03348017562202721,
+   "res_ci": [
+    0.011997510000908816,
+    0.05861083880457972
+   ],
+   "change": -0.005404078422838705,
+   "change_ci": [
+    -0.015757359441529162,
+    0.00478394286972636
+   ],
+   "n_problems": 146
+  },
+  "construct_given_verbose": {
+   "raw": 0.041432750679246365,
+   "raw_ci": [
+    0.024631486872006975,
+    0.061335252557102926
+   ],
+   "res": 0.03427733909888812,
+   "res_ci": [
+    0.01345978621155059,
+    0.05793872697045831
+   ],
+   "change": -0.00715541158035825,
+   "change_ci": [
+    -0.01949626550114756,
+    0.004719940585960688
+   ],
+   "n_problems": 146
+  },
+  "format_asymmetry": {
+   "raw": 0.0025484966343805038,
+   "raw_ci": [
+    0.00013460451992209355,
+    0.009583189048842677
+   ],
+   "res": 0.0007971634768609015,
+   "res_ci": [
+    0.00034374718024389114,
+    0.018607382351806655
+   ],
+   "change": -0.0017513331575196023,
+   "change_ci": [
+    -0.005719837600412616,
+    0.015172395244679957
+   ]
+  }
+ },
+ "mirrored_mbpp_base": {
+  "n_problems": 353,
+  "win_terse_correct_vs_verbose_buggy": [
+   0.5070821529745042,
+   0.5864022662889519
+  ],
+  "win_verbose_correct_vs_terse_buggy": [
+   0.6147308781869688,
+   0.5495750708215298
+  ],
+  "asymmetry_raw": 0.1076487252124646,
+  "asymmetry_raw_ci": [
+   0.016997167138810276,
+   0.20113314447592068
+  ],
+  "asymmetry_res": 0.03682719546742208,
+  "asymmetry_res_ci": [
+   0.0028328611898016387,
+   0.12747875354107652
+  ],
+  "asymmetry_change": -0.07082152974504252,
+  "asymmetry_change_ci": [
+   -0.16713881019830035,
+   0.10481586402266285
+  ],
+  "example": {
+   "qid": 308,
+   "prompt": "Write a function to find cubes of individual elements in a list using lambda function.",
+   "cells": {
+    "correct-terse": {
+     "test": 1,
+     "raw": -0.9840515851974487,
+     "res": -1.4235177028181385,
+     "chars": 91,
+     "code": "def cube_nums(nums):\n    cube_nums = list(map(lambda x: x ** 3, nums))\n    return cube_nums"
+    },
+    "correct-verbose": {
+     "test": 1,
+     "raw": -0.8932417631149292,
+     "res": -1.4250956279658076,
+     "chars": 361,
+     "code": "def cube_nums(nums):\n    \"\"\"Compute and return the required result.\n    \n    This implementation follows the problem\n    statement step by step and handles the\n    standard input cases directly.\n    \"\"\"\n    # main computation below\n    cube_nums = list(map(lambda x: x ** 3, nums))\n    return cube_nums\n\n# end of solution; verified against the provided examples"
+    },
+    "buggy-terse": {
+     "test": 0,
+     "raw": -1.131314992904663,
+     "res": -1.6513127956756422,
+     "chars": 91,
+     "code": "def cube_nums(nums):\n    cube_nums = list(map(lambda x: x ** 4, nums))\n    return cube_nums"
+    },
+    "buggy-verbose": {
+     "test": 0,
+     "raw": -0.9546217322349548,
+     "res": -1.5559333273776406,
+     "chars": 361,
+     "code": "def cube_nums(nums):\n    \"\"\"Compute and return the required result.\n    \n    This implementation follows the problem\n    statement step by step and handles the\n    standard input cases directly.\n    \"\"\"\n    # main computation below\n    cube_nums = list(map(lambda x: x ** 4, nums))\n    return cube_nums\n\n# end of solution; verified against the provided examples"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,8 @@
+
+=== REAL RewardBench (300) x reward-model-deberta-v3-large-v2 ===
+RM accuracy (P margin>0):            0.600
+'chosen is longer' rate:             0.397  (0.5=length neutral)
+corr(margin, length-gap):            0.229
+RM acc on LENGTH-BALANCED pairs:     0.626  (n=99)
+RM acc on LENGTH-DOMINATED pairs:    0.598  (n=102)
+해석: 길이균형 pairs에서 정확도 떨어지면 = RM이 length 아티팩트에 의존 (repair가 걷어낼 대상)

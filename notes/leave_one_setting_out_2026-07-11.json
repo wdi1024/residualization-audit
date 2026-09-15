@@ -1,0 +1,105 @@
+{
+ "rows": [
+  {
+   "held_out": "SNLI",
+   "C1": 0.708,
+   "threshold_from_others": 0.687,
+   "predicted": 1,
+   "true": 1,
+   "correct": true
+  },
+  {
+   "held_out": "SICK",
+   "C1": 0.727,
+   "threshold_from_others": 0.6775,
+   "predicted": 1,
+   "true": 1,
+   "correct": true
+  },
+  {
+   "held_out": "WikiQA",
+   "C1": 0.747,
+   "threshold_from_others": 0.6775,
+   "predicted": 1,
+   "true": 1,
+   "correct": true
+  },
+  {
+   "held_out": "QQP",
+   "C1": 0.636,
+   "threshold_from_others": 0.6775,
+   "predicted": 0,
+   "true": 0,
+   "correct": true
+  },
+  {
+   "held_out": "MNLI",
+   "C1": 0.617,
+   "threshold_from_others": 0.6775,
+   "predicted": 0,
+   "true": 0,
+   "correct": true
+  },
+  {
+   "held_out": "Toxicity",
+   "C1": 0.557,
+   "threshold_from_others": 0.6775,
+   "predicted": 0,
+   "true": 0,
+   "correct": true
+  },
+  {
+   "held_out": "ANLI",
+   "C1": 0.556,
+   "threshold_from_others": 0.6775,
+   "predicted": 0,
+   "true": 0,
+   "correct": true
+  },
+  {
+   "held_out": "HellaSwag",
+   "C1": 0.59,
+   "threshold_from_others": 0.6775,
+   "predicted": 0,
+   "true": 0,
+   "correct": true
+  },
+  {
+   "held_out": "SWAG",
+   "C1": 0.563,
+   "threshold_from_others": 0.6775,
+   "predicted": 0,
+   "true": 0,
+   "correct": true
+  },
+  {
+   "held_out": "SHP",
+   "C1": 0.647,
+   "threshold_from_others": 0.674,
+   "predicted": 0,
+   "true": 0,
+   "correct": true
+  },
+  {
+   "held_out": "BoolQ",
+   "C1": 0.64,
+   "threshold_from_others": 0.6775,
+   "predicted": 0,
+   "true": 0,
+   "correct": true
+  },
+  {
+   "held_out": "HateCheck",
+   "C1": 0.637,
+   "threshold_from_others": 0.6775,
+   "predicted": 0,
+   "true": 0,
+   "correct": true
+  }
+ ],
+ "correct": 12,
+ "n": 12,
+ "pos_min_C1": 0.708,
+ "neg_max_C1": 0.647,
+ "margin": 0.06099999999999994
+}

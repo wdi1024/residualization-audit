@@ -1,0 +1,6 @@
+{
+ "dataset": "asnq(validation, question-grouped 8k)",
+ "n": 8000,
+ "pos_rate": 0.005125,
+ "C1": 0.643
+}

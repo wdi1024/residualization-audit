@@ -1,0 +1,72 @@
+{
+ "snli": {
+  "n": 2400,
+  "n_flagged": 1211,
+  "cert_index_raw": 0.2973149469830747,
+  "cert_index_rep": 0.015252586470610513,
+  "cert_prob_raw": 0.304089321702793,
+  "cert_prob_rep": 0.013582344033461749,
+  "A_raw_flagged": 0.9461751481404281,
+  "A_rep_flagged": 0.8948872941666914,
+  "A_raw_unflagged": 0.9588328017889219,
+  "A_rep_unflagged": 0.8904774124173662,
+  "A_raw_full": 0.9583179377193005,
+  "A_rep_full": 0.8804858161249726
+ },
+ "sick": {
+  "n": 2116,
+  "n_flagged": 1839,
+  "cert_index_raw": 0.4441077804778685,
+  "cert_index_rep": 0.026267058501436766,
+  "cert_prob_raw": 0.45588712652172453,
+  "cert_prob_rep": 0.01454886922734921,
+  "A_raw_flagged": 0.9526340818596553,
+  "A_rep_flagged": 0.9304595940870182,
+  "A_raw_unflagged": 0.9651685393258427,
+  "A_rep_unflagged": 0.6614232209737827,
+  "A_raw_full": 0.9668388272671982,
+  "A_rep_full": 0.9061769742949519
+ },
+ "wikiqa": {
+  "n": 8000,
+  "n_flagged": 390,
+  "cert_index_raw": 0.4963940358028827,
+  "cert_index_rep": 0.028694629178906274,
+  "cert_prob_raw": 0.46437851257983986,
+  "cert_prob_rep": 0.03101412026889903,
+  "A_raw_flagged": 0.9455665437479047,
+  "A_rep_flagged": 0.8229131746563862,
+  "A_raw_unflagged": 0.8434693296737066,
+  "A_rep_unflagged": 0.8024281693485307,
+  "A_raw_full": 0.8641935375181105,
+  "A_rep_full": 0.8087974662219077
+ },
+ "asnq": {
+  "n": 8000,
+  "n_flagged": 628,
+  "cert_index_raw": 0.6022647716808758,
+  "cert_index_rep": 0.047436000541080714,
+  "cert_prob_raw": 0.5350753907861413,
+  "cert_prob_rep": 0.023344689114748116,
+  "A_raw_flagged": 0.7388198757763975,
+  "A_rep_flagged": 0.7219313812481514,
+  "A_raw_unflagged": 0.8530248439354982,
+  "A_rep_unflagged": 0.7749702462964371,
+  "A_raw_full": 0.8507643605682823,
+  "A_rep_full": 0.7703931037264371
+ },
+ "triviaqa": {
+  "n": 11264,
+  "n_flagged": 2816,
+  "cert_index_raw": 0.45528798970964923,
+  "cert_index_rep": 0.007928883908477556,
+  "cert_prob_raw": 0.45420158431284535,
+  "cert_prob_rep": 0.008397375816387415,
+  "A_raw_flagged": 0.683655862766233,
+  "A_rep_flagged": 0.6510718254664561,
+  "A_raw_unflagged": 0.6773892390512369,
+  "A_rep_unflagged": 0.6234383289828315,
+  "A_raw_full": 0.7055638421008738,
+  "A_rep_full": 0.6364903725868415
+ }
+}

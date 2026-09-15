@@ -1,0 +1,112 @@
+{
+ "wikiqa": {
+  "logit": {
+   "adv_gain": 0.1806,
+   "full_gain": -0.0535,
+   "A_adv_rep": 0.8024
+  },
+  "prob": {
+   "adv_gain": 0.1005,
+   "full_gain": -0.0908,
+   "A_adv_rep": 0.7223
+  },
+  "rankg": {
+   "adv_gain": 0.2163,
+   "full_gain": -0.0563,
+   "A_adv_rep": 0.8381
+  },
+  "winz": {
+   "adv_gain": 0.1786,
+   "full_gain": -0.0575,
+   "A_adv_rep": 0.8004
+  }
+ },
+ "asnq": {
+  "logit": {
+   "adv_gain": 0.1996,
+   "full_gain": -0.082,
+   "A_adv_rep": 0.6947
+  },
+  "prob": {
+   "adv_gain": 0.1527,
+   "full_gain": -0.1692,
+   "A_adv_rep": 0.6479
+  },
+  "rankg": {
+   "adv_gain": 0.2451,
+   "full_gain": -0.0936,
+   "A_adv_rep": 0.7403
+  },
+  "winz": {
+   "adv_gain": 0.1998,
+   "full_gain": -0.0821,
+   "A_adv_rep": 0.695
+  }
+ },
+ "triviaqa": {
+  "logit": {
+   "adv_gain": 0.1483,
+   "full_gain": -0.0701,
+   "A_adv_rep": 0.621
+  },
+  "prob": {
+   "adv_gain": 0.147,
+   "full_gain": -0.0901,
+   "A_adv_rep": 0.6197
+  },
+  "rankg": {
+   "adv_gain": 0.1514,
+   "full_gain": -0.0766,
+   "A_adv_rep": 0.6241
+  },
+  "winz": {
+   "adv_gain": 0.1478,
+   "full_gain": -0.0705,
+   "A_adv_rep": 0.6206
+  }
+ },
+ "squad": {
+  "logit": {
+   "adv_gain": 0.1759,
+   "full_gain": -0.0956,
+   "A_adv_rep": 0.8817
+  },
+  "prob": {
+   "adv_gain": 0.1259,
+   "full_gain": -0.1098,
+   "A_adv_rep": 0.8316
+  },
+  "rankg": {
+   "adv_gain": 0.187,
+   "full_gain": -0.1338,
+   "A_adv_rep": 0.8927
+  },
+  "winz": {
+   "adv_gain": 0.1754,
+   "full_gain": -0.0959,
+   "A_adv_rep": 0.8811
+  }
+ },
+ "duorc": {
+  "logit": {
+   "adv_gain": 0.0559,
+   "full_gain": -0.0834,
+   "A_adv_rep": 0.8626
+  },
+  "prob": {
+   "adv_gain": 0.0215,
+   "full_gain": -0.1098,
+   "A_adv_rep": 0.8283
+  },
+  "rankg": {
+   "adv_gain": 0.0616,
+   "full_gain": -0.1309,
+   "A_adv_rep": 0.8684
+  },
+  "winz": {
+   "adv_gain": 0.0551,
+   "full_gain": -0.0848,
+   "A_adv_rep": 0.8618
+  }
+ }
+}

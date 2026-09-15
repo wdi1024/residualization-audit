@@ -1,0 +1,71 @@
+{
+ "candidate": "hh",
+ "n": 2000,
+ "pos_rate": 0.5035,
+ "grouped_cv": false,
+ "n_groups": 1998,
+ "screen_C1": 0.513,
+ "C1_remeasured_screen_cv": 0.5114295600484423,
+ "C1_remeasured_at_screen_n": 0.513285375,
+ "C1_pipeline_cv": 0.5114295600484423,
+ "C1_gate_pass": false,
+ "s_raw_AUC_full": 0.5004095200664832,
+ "C2_R2_phi_to_s": 0.04214980153770609,
+ "C2_Delta_adv": -0.024263532828144085,
+ "C2_pass": false,
+ "A_full": [
+  0.5004095200664832,
+  0.5038706896637936
+ ],
+ "A_adv": [
+  0.5246730528946273,
+  0.5112453144523115
+ ],
+ "n_adv": 980,
+ "slice_gain": -0.013427738442315817,
+ "slice_gain_CI": [
+  -0.022840926017534097,
+  -0.004051679132371475
+ ],
+ "full_gain": 0.003461169597310354,
+ "full_gain_CI": [
+  -0.002153820331941701,
+  0.009463087919018781
+ ],
+ "decorrelation_before_after": [
+  0.0386718519646957,
+  0.005160746056423673
+ ],
+ "cert_after_CI": [
+  0.0005898023365070162,
+  0.04838786944113802
+ ],
+ "cert_pass": true,
+ "pipeline_ran_to_completion": true,
+ "verdict": "true negative: C2 fails (R2=0.042, Dadv=-0.024); slice gain not significantly positive (-0.013 CI [-0.022840926017534097, -0.004051679132371475])",
+ "screen_FN": false,
+ "committed": {
+  "candidate": "hh",
+  "n": 2000,
+  "scorer": "OpenAssistant/reward-model-deberta-v3-base",
+  "score_def": "rm_margin",
+  "phi": "n=2000 subsample (seed-0 choice) of screen's flip-constructed 4000; phi = length-only on FULL dialogue strings (screen verbatim); s = RM margin on last-assistant-turn split",
+  "pairing_rationale": "base RM (NOT large-v2, whose training mix includes hh-rlhf -> in-distribution trap); hh-rlhf off-distribution for base; screen's deterministic flip keeps y non-degenerate (RewardBench trap avoided).",
+  "slice_rule": "rate-calibrated: adv = (art_prob > quantile(art_prob, 1-mean(y))) != (y==1)",
+  "cv": "KFold(5, shuffle, seed 0)",
+  "gates": {
+   "C1": 0.65,
+   "C2_R2": 0.05,
+   "C2_Dadv": 0.03,
+   "cert": 0.05
+  },
+  "screen_C1": 0.513,
+  "remeasured_C1": 0.5114295600484423,
+  "remeasured_C1_at_screen_n": 0.513285375,
+  "committed_prediction": "no validated positive expected (screen C1 0.513 < 0.65 -> refusal)"
+ },
+ "spot_check_n": 32,
+ "spot_check_max_absdiff": 0.0,
+ "determinism_check": "PASS: all statistics identical across two processes; scorer spot-check max|diff|=0.0",
+ "runtime_s": 430.9
+}

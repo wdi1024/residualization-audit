@@ -1,0 +1,7 @@
+{
+ "dataset": "asnq val, all-pos + <=19 neg/question",
+ "n": 8000,
+ "pos_rate": 0.078625,
+ "questions": 390,
+ "C1": 0.747
+}

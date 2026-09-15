@@ -1,0 +1,119 @@
+{
+ "protocol": "GroupKFold(5) by question; rules frozen at F2=90, F3=10; flag feature spec frozen, logistic refit once on pooled dev",
+ "point_check_row_level": {
+  "rules_squad": {
+   "F2": {
+    "param": 90,
+    "full_delta": -0.0775,
+    "clusterCI": [
+     -0.0873,
+     -0.0676
+    ]
+   },
+   "F3": {
+    "param": 10,
+    "full_delta": -0.0819,
+    "clusterCI": [
+     -0.0922,
+     -0.0719
+    ]
+   }
+  },
+  "flag": {
+   "squad": {
+    "flag_AUC": 0.8088,
+    "base_rate": 0.184,
+    "precision_top20": 0.4225,
+    "lift_top20": 2.3
+   },
+   "duorc": {
+    "flag_AUC": 0.9132,
+    "base_rate": 0.0853,
+    "precision_top20": 0.375,
+    "lift_top20": 4.4
+   },
+   "triviaqa": {
+    "flag_AUC": 0.739,
+    "base_rate": 0.2962,
+    "precision_top20": 0.5462,
+    "lift_top20": 1.84
+   }
+  }
+ },
+ "rules_grouped": {
+  "squad": {
+   "F2": {
+    "param": 90,
+    "full_delta": -0.0788,
+    "clusterCI": [
+     -0.0874,
+     -0.069
+    ]
+   },
+   "F3": {
+    "param": 10,
+    "full_delta": -0.0839,
+    "clusterCI": [
+     -0.0962,
+     -0.074
+    ]
+   }
+  },
+  "duorc": {
+   "F2": {
+    "param": 90,
+    "full_delta": -0.0732,
+    "clusterCI": [
+     -0.0864,
+     -0.0606
+    ]
+   },
+   "F3": {
+    "param": 10,
+    "full_delta": -0.0832,
+    "clusterCI": [
+     -0.099,
+     -0.069
+    ]
+   }
+  },
+  "triviaqa": {
+   "F2": {
+    "param": 90,
+    "full_delta": -0.0273,
+    "clusterCI": [
+     -0.0334,
+     -0.0212
+    ]
+   },
+   "F3": {
+    "param": 10,
+    "full_delta": -0.0338,
+    "clusterCI": [
+     -0.0385,
+     -0.0287
+    ]
+   }
+  }
+ },
+ "flag_grouped": {
+  "squad": {
+   "flag_AUC": 0.8092,
+   "base_rate": 0.1847,
+   "precision_top20": 0.4188,
+   "lift_top20": 2.27
+  },
+  "duorc": {
+   "flag_AUC": 0.9111,
+   "base_rate": 0.0845,
+   "precision_top20": 0.3713,
+   "lift_top20": 4.39
+  },
+  "triviaqa": {
+   "flag_AUC": 0.737,
+   "base_rate": 0.2953,
+   "precision_top20": 0.5333,
+   "lift_top20": 1.81
+  }
+ }
+}

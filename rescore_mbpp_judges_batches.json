@@ -1,0 +1,17 @@
+{
+  "haiku45": {
+    "batch_id": "msgbatch_01Kgk9cf5CTYgagxiw17t54c",
+    "model": "claude-haiku-4-5",
+    "n": 1412
+  },
+  "sonnet5": {
+    "batch_id": "msgbatch_0165eT4yyX59hn5s6qe4tzrD",
+    "model": "claude-sonnet-5",
+    "n": 1412
+  },
+  "opus5": {
+    "batch_id": "msgbatch_01PJsB4Rjbx3xTBhBdqp6jMv",
+    "model": "claude-opus-5",
+    "n": 1412
+  }
+}

@@ -1,0 +1,42 @@
+[
+ {
+  "setting": "SNLI",
+  "r_lin_rep": 0.015252586470610513,
+  "ci_lo": 0.0009523120220285362,
+  "ci_hi": 0.05108095072319378,
+  "clustered": false,
+  "verdict": "marginal"
+ },
+ {
+  "setting": "SICK",
+  "r_lin_rep": 0.026267058501436766,
+  "ci_lo": 0.00310651790259379,
+  "ci_hi": 0.048863648129770815,
+  "clustered": false,
+  "verdict": "clean"
+ },
+ {
+  "setting": "WikiQA",
+  "r_lin_rep": 0.028694629178906274,
+  "ci_lo": 0.002730957830227008,
+  "ci_hi": 0.060412495484021465,
+  "clustered": true,
+  "verdict": "marginal"
+ },
+ {
+  "setting": "ASNQ",
+  "r_lin_rep": 0.047436000541080714,
+  "ci_lo": 0.01742194013490115,
+  "ci_hi": 0.07849355410192058,
+  "clustered": true,
+  "verdict": "marginal"
+ },
+ {
+  "setting": "TriviaQA",
+  "r_lin_rep": 0.007928883908477556,
+  "ci_lo": 0.0006005729334845315,
+  "ci_hi": 0.028685480898880508,
+  "clustered": true,
+  "verdict": "clean"
+ }
+]

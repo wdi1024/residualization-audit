@@ -1,0 +1,20 @@
+{
+ "candidate": "paws",
+ "n": 4000,
+ "scorer": "textattack/bert-base-uncased-QQP",
+ "score_def": "softmax:1",
+ "phi": "full n=4000; phi = pair-text TF-IDF (screen verbatim); sentence1-grouped; QQP-bert on PAWS = the canonical artifact-corrupted off-distribution pairing",
+ "pairing_rationale": "QQP-trained bert applied to PAWS, which was constructed so that overlap-reliant QQP models fail -> score genuinely artifact-corrupted (C2 expected to hold; C1 is what failed).",
+ "slice_rule": "rate-calibrated: adv = (art_prob > quantile(art_prob, 1-mean(y))) != (y==1)",
+ "cv": "KFold(5, shuffle, seed 0)",
+ "gates": {
+  "C1": 0.65,
+  "C2_R2": 0.05,
+  "C2_Dadv": 0.03,
+  "cert": 0.05
+ },
+ "screen_C1": 0.538,
+ "remeasured_C1": 0.537594248800424,
+ "remeasured_C1_at_screen_n": null,
+ "committed_prediction": "no validated positive expected (screen C1 0.538 < 0.65 -> refusal)"
+}

@@ -1,0 +1,402 @@
+wikiqa {
+ "n": 8000,
+ "n_adv": 626,
+ "C1": 0.7481,
+ "R2": 0.314,
+ "delta_adv": 0.2424,
+ "C1_CI": [
+  0.7209,
+  0.7714
+ ],
+ "R2_CI": [
+  0.286,
+  0.3404
+ ],
+ "delta_adv_CI": [
+  0.2046,
+  0.2787
+ ],
+ "alpha_sweep": {
+  "0.1": {
+   "gain_adv": 0.1414,
+   "A_adv": [
+    0.6218,
+    0.7632
+   ],
+   "Rlin_rep": 0.0446,
+   "R2": 0.0444
+  },
+  "1.0": {
+   "gain_adv": 0.1806,
+   "A_adv": [
+    0.6218,
+    0.8024
+   ],
+   "Rlin_rep": 0.0417,
+   "R2": 0.314
+  },
+  "10.0": {
+   "gain_adv": 0.1508,
+   "A_adv": [
+    0.6218,
+    0.7726
+   ],
+   "Rlin_rep": 0.145,
+   "R2": 0.3164
+  },
+  "100.0": {
+   "gain_adv": 0.0553,
+   "A_adv": [
+    0.6218,
+    0.6771
+   ],
+   "Rlin_rep": 0.3092,
+   "R2": 0.1427
+  }
+ },
+ "rank_gauss": {
+  "Rlin_raw": 0.4859,
+  "Rlin_rep": 0.0389,
+  "gain_adv": 0.2164
+ }
+}
+asnq {
+ "n": 8000,
+ "n_adv": 974,
+ "C1": 0.7506,
+ "R2": 0.377,
+ "delta_adv": 0.3556,
+ "C1_CI": [
+  0.7323,
+  0.7692
+ ],
+ "R2_CI": [
+  0.3527,
+  0.3999
+ ],
+ "delta_adv_CI": [
+  0.3194,
+  0.3898
+ ],
+ "alpha_sweep": {
+  "0.1": {
+   "gain_adv": 0.1262,
+   "A_adv": [
+    0.4952,
+    0.6213
+   ],
+   "Rlin_rep": 0.1824,
+   "R2": 0.1282
+  },
+  "1.0": {
+   "gain_adv": 0.1996,
+   "A_adv": [
+    0.4952,
+    0.6947
+   ],
+   "Rlin_rep": 0.1389,
+   "R2": 0.377
+  },
+  "10.0": {
+   "gain_adv": 0.1698,
+   "A_adv": [
+    0.4952,
+    0.665
+   ],
+   "Rlin_rep": 0.2398,
+   "R2": 0.3701
+  },
+  "100.0": {
+   "gain_adv": 0.0492,
+   "A_adv": [
+    0.4952,
+    0.5443
+   ],
+   "Rlin_rep": 0.4573,
+   "R2": 0.1665
+  }
+ },
+ "rank_gauss": {
+  "Rlin_raw": 0.5095,
+  "Rlin_rep": 0.1165,
+  "gain_adv": 0.2452
+ }
+}
+triviaqa {
+ "n": 11264,
+ "n_adv": 3324,
+ "C1": 0.6758,
+ "R2": 0.3846,
+ "delta_adv": 0.2328,
+ "C1_CI": [
+  0.6644,
+  0.686
+ ],
+ "R2_CI": [
+  0.3677,
+  0.4006
+ ],
+ "delta_adv_CI": [
+  0.2175,
+  0.2488
+ ],
+ "alpha_sweep": {
+  "0.1": {
+   "gain_adv": 0.1243,
+   "A_adv": [
+    0.4728,
+    0.5971
+   ],
+   "Rlin_rep": 0.0129,
+   "R2": 0.0613
+  },
+  "1.0": {
+   "gain_adv": 0.1483,
+   "A_adv": [
+    0.4728,
+    0.621
+   ],
+   "Rlin_rep": 0.008,
+   "R2": 0.3846
+  },
+  "10.0": {
+   "gain_adv": 0.1594,
+   "A_adv": [
+    0.4728,
+    0.6321
+   ],
+   "Rlin_rep": 0.0385,
+   "R2": 0.4153
+  },
+  "100.0": {
+   "gain_adv": 0.1312,
+   "A_adv": [
+    0.4728,
+    0.604
+   ],
+   "Rlin_rep": 0.157,
+   "R2": 0.2794
+  }
+ },
+ "rank_gauss": {
+  "Rlin_raw": 0.4243,
+  "Rlin_rep": 0.0075,
+  "gain_adv": 0.1513
+ }
+}
+Using the latest cached version of the dataset since squad couldn't be found on the Hugging Face Hub
+Found the latest cached dataset configuration 'plain_text' at /Users/wondaein/.cache/huggingface/datasets/squad/plain_text/0.0.0/7b6d24c440a36b6815f21b70d25016731768db1f (last modified on Tue Jul 28 01:35:59 2026).
+squad {
+ "n": 8000,
+ "n_adv": 1478,
+ "C1": 0.8128,
+ "R2": 0.491,
+ "delta_adv": 0.2258,
+ "C1_CI": [
+  0.8001,
+  0.8241
+ ],
+ "R2_CI": [
+  0.4738,
+  0.5079
+ ],
+ "delta_adv_CI": [
+  0.2023,
+  0.2506
+ ],
+ "alpha_sweep": {
+  "0.1": {
+   "gain_adv": 0.166,
+   "A_adv": [
+    0.7058,
+    0.8718
+   ],
+   "Rlin_rep": 0.0009,
+   "R2": 0.4612
+  },
+  "1.0": {
+   "gain_adv": 0.1759,
+   "A_adv": [
+    0.7058,
+    0.8817
+   ],
+   "Rlin_rep": 0.0274,
+   "R2": 0.491
+  },
+  "10.0": {
+   "gain_adv": 0.164,
+   "A_adv": [
+    0.7058,
+    0.8698
+   ],
+   "Rlin_rep": 0.187,
+   "R2": 0.4615
+  },
+  "100.0": {
+   "gain_adv": 0.0775,
+   "A_adv": [
+    0.7058,
+    0.7833
+   ],
+   "Rlin_rep": 0.4538,
+   "R2": 0.2274
+  }
+ },
+ "rank_gauss": {
+  "Rlin_raw": 0.5853,
+  "Rlin_rep": 0.0256,
+  "gain_adv": 0.1869
+ }
+}
+duorc {
+ "n": 8000,
+ "n_adv": 674,
+ "C1": 0.835,
+ "R2": 0.2827,
+ "delta_adv": 0.144,
+ "C1_CI": [
+  0.8149,
+  0.8525
+ ],
+ "R2_CI": [
+  0.2497,
+  0.3155
+ ],
+ "delta_adv_CI": [
+  0.1171,
+  0.1729
+ ],
+ "alpha_sweep": {
+  "0.1": {
+   "gain_adv": 0.0413,
+   "A_adv": [
+    0.8068,
+    0.848
+   ],
+   "Rlin_rep": 0.0011,
+   "R2": 0.1932
+  },
+  "1.0": {
+   "gain_adv": 0.0559,
+   "A_adv": [
+    0.8068,
+    0.8626
+   ],
+   "Rlin_rep": 0.0352,
+   "R2": 0.2827
+  },
+  "10.0": {
+   "gain_adv": 0.0526,
+   "A_adv": [
+    0.8068,
+    0.8594
+   ],
+   "Rlin_rep": 0.1912,
+   "R2": 0.2764
+  },
+  "100.0": {
+   "gain_adv": 0.0172,
+   "A_adv": [
+    0.8068,
+    0.824
+   ],
+   "Rlin_rep": 0.3742,
+   "R2": 0.1014
+  }
+ },
+ "rank_gauss": {
+  "Rlin_raw": 0.415,
+  "Rlin_rep": 0.0296,
+  "gain_adv": 0.0615
+ }
+}
+snli {
+ "n": 2400,
+ "n_adv": 982,
+ "C1": 0.6381,
+ "R2": 0.1004,
+ "delta_adv": 0.0112,
+ "C1_CI": [
+  0.6169,
+  0.6608
+ ],
+ "R2_CI": [
+  0.073,
+  0.1265
+ ],
+ "delta_adv_CI": [
+  0.0014,
+  0.0216
+ ],
+ "alpha_sweep": {
+  "0.1": {
+   "gain_adv": 0.018,
+   "A_adv": [
+    0.9472,
+    0.9651
+   ],
+   "Rlin_rep": 0.2253,
+   "R2": -0.0404
+  },
+  "1.0": {
+   "gain_adv": 0.0112,
+   "A_adv": [
+    0.9472,
+    0.9584
+   ],
+   "Rlin_rep": 0.0604,
+   "R2": 0.1004
+  },
+  "10.0": {
+   "gain_adv": -0.0001,
+   "A_adv": [
+    0.9472,
+    0.9471
+   ],
+   "Rlin_rep": 0.1198,
+   "R2": 0.0803
+  },
+  "100.0": {
+   "gain_adv": -0.0006,
+   "A_adv": [
+    0.9472,
+    0.9466
+   ],
+   "Rlin_rep": 0.1941,
+   "R2": 0.0165
+  }
+ },
+ "rank_gauss": {
+  "Rlin_raw": 0.2369,
+  "Rlin_rep": 0.0351,
+  "gain_adv": 0.0157
+ }
+}
+Traceback (most recent call last):
+  File "/Users/wondaein/ai-vault/experiments/proxy_repair/grouped_rerun/review_r4_experiments.py", line 288, in <module>
+    main()
+    ~~~~^^
+  File "/Users/wondaein/ai-vault/experiments/proxy_repair/grouped_rerun/review_r4_experiments.py", line 279, in main
+    out["sick"] = run_nli("sick", "sick", "validation",
+                  ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                          "sick_s.npy", ("sentence_A", "sentence_B", "label"))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wondaein/ai-vault/experiments/proxy_repair/grouped_rerun/review_r4_experiments.py", line 222, in run_nli
+    d = load_dataset(hf_id, split=split)
+  File "/Users/wondaein/ai-vault/experiments/expectation_grounded/api_run/.venv313/lib/python3.13/site-packages/datasets/load.py", line 1696, in load_dataset
+    builder_instance = load_dataset_builder(
+        path=path,
+    ...<10 lines>...
+        **config_kwargs,
+    )
+  File "/Users/wondaein/ai-vault/experiments/expectation_grounded/api_run/.venv313/lib/python3.13/site-packages/datasets/load.py", line 1323, in load_dataset_builder
+    dataset_module = dataset_module_factory(
+        path,
+    ...<5 lines>...
+        cache_dir=cache_dir,
+    )
+  File "/Users/wondaein/ai-vault/experiments/expectation_grounded/api_run/.venv313/lib/python3.13/site-packages/datasets/load.py", line 1215, in dataset_module_factory
+    raise e1 from None
+  File "/Users/wondaein/ai-vault/experiments/expectation_grounded/api_run/.venv313/lib/python3.13/site-packages/datasets/load.py", line 1175, in dataset_module_factory
+    raise RuntimeError(f"Dataset scripts are no longer supported, but found {filename}")
+RuntimeError: Dataset scripts are no longer supported, but found sick.py

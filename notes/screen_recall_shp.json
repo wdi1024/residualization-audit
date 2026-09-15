@@ -1,0 +1,71 @@
+{
+ "candidate": "shp",
+ "n": 2000,
+ "pos_rate": 0.4875,
+ "grouped_cv": true,
+ "n_groups": 300,
+ "screen_C1": 0.647,
+ "C1_remeasured_screen_cv": 0.6505295809881175,
+ "C1_remeasured_at_screen_n": 0.6467711010555655,
+ "C1_pipeline_cv": 0.6467277048155097,
+ "C1_gate_pass": true,
+ "s_raw_AUC_full": 0.5892662914321452,
+ "C2_R2_phi_to_s": 0.10826329066096185,
+ "C2_Delta_adv": 0.1940027118775866,
+ "C2_pass": true,
+ "A_full": [
+  0.5892662914321452,
+  0.5448055034396497
+ ],
+ "A_adv": [
+  0.39526357955455854,
+  0.5419964749238905
+ ],
+ "n_adv": 790,
+ "slice_gain": 0.14673289536933193,
+ "slice_gain_CI": [
+  0.12670465149804014,
+  0.17039207251804564
+ ],
+ "full_gain": -0.04446078799249542,
+ "full_gain_CI": [
+  -0.05872881833073117,
+  -0.03140107076794367
+ ],
+ "decorrelation_before_after": [
+  0.3107872549840785,
+  0.008083731285468559
+ ],
+ "cert_after_CI": [
+  0.0005318935789799065,
+  0.05321279597819723
+ ],
+ "cert_pass": true,
+ "pipeline_ran_to_completion": true,
+ "verdict": "VALIDATED POSITIVE (screen FN)",
+ "screen_FN": true,
+ "committed": {
+  "candidate": "shp",
+  "n": 2000,
+  "scorer": "OpenAssistant/reward-model-deberta-v3-base",
+  "score_def": "rm_margin",
+  "phi": "n=2000 subsample of the screen's first-4000 (seed-0 choice); phi = length-only [la,lb,la-lb,dlog1p]; post_id-grouped",
+  "pairing_rationale": "OA deberta-v3-base RM trained on webgpt/summarize/synthetic-instruct -> SHP (Reddit) is off-distribution; RM length bias is the documented artifact; y = SHP human preference (independent).",
+  "slice_rule": "rate-calibrated: adv = (art_prob > quantile(art_prob, 1-mean(y))) != (y==1)",
+  "cv": "GroupKFold(5), deterministic first-occurrence group ids",
+  "gates": {
+   "C1": 0.65,
+   "C2_R2": 0.05,
+   "C2_Dadv": 0.03,
+   "cert": 0.05
+  },
+  "screen_C1": 0.647,
+  "remeasured_C1": 0.6505295809881175,
+  "remeasured_C1_at_screen_n": 0.6467711010555655,
+  "committed_prediction": "no validated positive expected (screen C1 0.647 < 0.65 -> refusal)"
+ },
+ "spot_check_n": 32,
+ "spot_check_max_absdiff": 0.0,
+ "determinism_check": "PASS: all statistics identical across two processes; scorer spot-check max|diff|=0.0",
+ "runtime_s": 365.8
+}

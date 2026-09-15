@@ -1,0 +1,10 @@
+{
+ "C1_screen": 0.8341160956945456,
+ "committed_prediction": "improvement expected (C1 passes; C2 measured after scoring)",
+ "gates": {
+  "C1": 0.65,
+  "C2_R2": 0.05,
+  "C2_Dadv": 0.03,
+  "cert": 0.05
+ }
+}

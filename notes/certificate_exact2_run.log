@@ -1,0 +1,12 @@
+SICK rows: 4906
+[SICK] raw AUC sanity: 0.967 (expect ~0.967)
+[SICK] ridge_cv(paper)      R2(phi->s_rep)=-0.5013  corr=-0.0145  decisionAUC=0.648 [0.624, 0.672]
+[SICK] ols_cv               R2(phi->s_rep)=-0.4697  corr=-0.0550  decisionAUC=0.540 [0.509, 0.571]
+[SICK] ols_full(in-sample)  R2(phi->s_rep)=-0.6267  corr=-0.0949  decisionAUC=0.481 [0.449, 0.514]
+[SICK] raw decisionAUC=0.878 [0.86, 0.896]
+[WikiQA] raw AUC sanity: 0.864 (expect ~0.864)
+[WikiQA] ridge_cv(paper)      R2(phi->s_rep)=-0.4729  corr=+0.0311  decisionAUC=0.559 [0.528, 0.589]
+[WikiQA] ols_cv               R2(phi->s_rep)=-0.6350  corr=+0.0404  decisionAUC=0.523 [0.493, 0.554]
+[WikiQA] ols_full(in-sample)  R2(phi->s_rep)=-0.5677  corr=+0.0026  decisionAUC=0.494 [0.465, 0.524]
+[WikiQA] raw decisionAUC=0.843 [0.824, 0.86]
+wrote /Users/wondaein/ai-vault/experiments/proxy_repair/scripts/../notes/certificate_exact_2026-07-11.json

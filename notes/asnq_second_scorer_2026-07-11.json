@@ -1,0 +1,44 @@
+{
+ "qnli": {
+  "scorer": "cross-encoder/qnli-distilroberta-base",
+  "R2_phi_to_s": 0.203,
+  "A_full": [
+   0.794,
+   0.733
+  ],
+  "A_adv": [
+   0.714,
+   0.726
+  ],
+  "adv_gain": 0.012,
+  "adv_gain_ci": [
+   -0.007,
+   0.032
+  ],
+  "R_lin": [
+   0.089,
+   0.011
+  ]
+ },
+ "stsb": {
+  "scorer": "cross-encoder/stsb-roberta-base",
+  "R2_phi_to_s": 0.536,
+  "A_full": [
+   0.807,
+   0.697
+  ],
+  "A_adv": [
+   0.399,
+   0.665
+  ],
+  "adv_gain": 0.265,
+  "adv_gain_ci": [
+   0.241,
+   0.288
+  ],
+  "R_lin": [
+   0.512,
+   0.006
+  ]
+ }
+}

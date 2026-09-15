@@ -1,0 +1,41 @@
+# LaTeX build artifacts
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.bbl
+paper/*.blg
+paper/*.synctex.gz
+paper/*.fdb_latexmk
+paper/*.fls
+paper/build/
+
+# Version snapshots and archives (not part of the release)
+paper/*_v[0-9]*.pdf
+paper/*.zip
+paper/*.bak*
+paper/*backup*
+paper/*.stale_*
+paper/korean_latex/
+paper/main_ko*
+paper/main_v[0-9]*.tex
+paper/tmlr_sample_main.tex
+paper/PREVIEW_*.pdf
+paper/iclr2026_conference.*
+paper/main.pdf
+
+# OS
+.DS_Store
+paper/*.damaged*
+paper/md2pdf_ko.py
+README.md.internal_bak
+proxy_repair_v[0-9]*.pdf
+results_rewardbench_deberta.txt
+paper/
+
+# Internal working documents (not part of the release)
+RESEARCH_FRAMING.md
+notes/PAPER6_ROUND_RESULTS_*.md
+notes/corresponding_author_review_*.md
+notes/mock_tmlr_review_*.md
+notes/reviewer_robustness_revision_*.md
+notes/tmlr_rebuttal_cards_*.md
