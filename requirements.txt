@@ -1,0 +1,20 @@
+# Tested with Python 3.9.13 on macOS (CPU only).
+# The versions below are the ones the reported numbers were produced with.
+
+numpy==2.0.2
+scipy==1.13.1
+scikit-learn==1.6.1
+
+# Dataset loading and the sentence/cross-encoder scorers.
+datasets==4.5.0
+transformers==4.57.6
+sentence-transformers==5.1.2
+torch==2.8.0
+
+# Only for the three scripts that call an LLM judge (rescore_mbpp_judges.py,
+# overlap_edit_llm_check.py, llm_judge_probe.py); the key is read from the
+# ANTHROPIC_API_KEY environment variable.
+anthropic==0.97.0
+
+# Only for overlap_intervention.py and overlap_edit_llm_check.py.
+nltk==3.9.2
