@@ -39,3 +39,7 @@ notes/corresponding_author_review_*.md
 notes/mock_tmlr_review_*.md
 notes/reviewer_robustness_revision_*.md
 notes/tmlr_rebuttal_cards_*.md
+
+# Python
+__pycache__/
+*.pyc
