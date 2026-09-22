@@ -4,7 +4,7 @@ Code, pre-registration artifacts, and cached scores for the paper
 **"When Residualization Helps an Audit: Format Effects, Slice Gains, and Their Limits"**
 by Daein Weon and Dong Ho Kang.
 
-📄 Paper: *arXiv link to be added.*
+📄 Paper: [arXiv:2609.24194](https://arxiv.org/abs/2609.24194)
 
 The paper asks what a post-hoc residualization of an evaluation score establishes once it has been
 applied: what designed interventions can show, what observational slice gains actually support, and
@@ -83,7 +83,17 @@ paper says so.
 
 ## Citation
 
-A BibTeX entry will be added when the preprint is posted.
+```bibtex
+@misc{weon2026residualization,
+  title         = {When Residualization Helps an Audit: Format Effects, Slice Gains, and Their Limits},
+  author        = {Weon, Daein and Kang, Dong Ho},
+  year          = {2026},
+  eprint        = {2609.24194},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  url           = {https://arxiv.org/abs/2609.24194}
+}
+```
 
 ## License
 
